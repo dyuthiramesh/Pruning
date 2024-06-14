@@ -1,0 +1,739 @@
+/workspace/Pruning/UFKT/LeNet-5
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Failed to download (trying next):
+HTTP Error 403: Forbidden
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to ../mnist_data/MNIST/raw/train-images-idx3-ubyte.gz
+Extracting ../mnist_data/MNIST/raw/train-images-idx3-ubyte.gz to ../mnist_data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+Failed to download (trying next):
+HTTP Error 403: Forbidden
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to ../mnist_data/MNIST/raw/train-labels-idx1-ubyte.gz
+Extracting ../mnist_data/MNIST/raw/train-labels-idx1-ubyte.gz to ../mnist_data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+Failed to download (trying next):
+HTTP Error 403: Forbidden
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to ../mnist_data/MNIST/raw/t10k-images-idx3-ubyte.gz
+Extracting ../mnist_data/MNIST/raw/t10k-images-idx3-ubyte.gz to ../mnist_data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+Failed to download (trying next):
+HTTP Error 403: Forbidden
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to ../mnist_data/MNIST/raw/t10k-labels-idx1-ubyte.gz
+Extracting ../mnist_data/MNIST/raw/t10k-labels-idx1-ubyte.gz to ../mnist_data/MNIST/raw
+
+Conv2d(1, 20, kernel_size=(5, 5), stride=(1, 1))
+Conv2d(20, 50, kernel_size=(5, 5), stride=(1, 1))
+selected IMP indices  [[13, 7, 6], [34, 20, 44]]
+selected  UNIMP indices  [[5], [14, 12, 26, 43, 27, 40]]
+LeNet(
+  (conv1): Conv2d(1, 20, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(20, 50, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=800, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[12, 6, 5], [18, 30, 38]]
+selected  UNIMP indices  [[2], [5, 15, 8, 0, 33]]
+LeNet(
+  (conv1): Conv2d(1, 19, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(19, 44, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=704, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[11, 5, 4], [26, 14, 33]]
+selected  UNIMP indices  [[0], [31, 3, 27, 8]]
+LeNet(
+  (conv1): Conv2d(1, 18, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(18, 39, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=624, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[11, 4, 3], [29, 33, 24]]
+selected  UNIMP indices  [[0], [15, 19, 6, 0]]
+LeNet(
+  (conv1): Conv2d(1, 17, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(17, 35, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=560, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[10, 3, 2], [29, 25, 20]]
+selected  UNIMP indices  [[0], [17, 16, 9, 1]]
+LeNet(
+  (conv1): Conv2d(1, 16, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(16, 31, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=496, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[9, 2, 1], [4, 25, 16]]
+selected  UNIMP indices  [[0], [1, 6, 2]]
+LeNet(
+  (conv1): Conv2d(1, 15, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(15, 27, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=432, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[8, 1, 0], [9, 13, 2]]
+selected  UNIMP indices  [[2], [19, 15, 21]]
+LeNet(
+  (conv1): Conv2d(1, 14, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(14, 24, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=384, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[7, 1, 0], [13, 2, 20]]
+selected  UNIMP indices  [[2], [1, 16, 4]]
+LeNet(
+  (conv1): Conv2d(1, 13, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(13, 21, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=336, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[6, 1, 0], [1, 11, 17]]
+selected  UNIMP indices  [[2], [10, 6]]
+LeNet(
+  (conv1): Conv2d(1, 12, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(12, 18, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=288, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[5, 1, 0], [15, 6, 1]]
+selected  UNIMP indices  [[2], [7, 10]]
+LeNet(
+  (conv1): Conv2d(1, 11, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(11, 16, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=256, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[4, 1, 0], [6, 13, 1]]
+selected  UNIMP indices  [[2], [10, 9]]
+LeNet(
+  (conv1): Conv2d(1, 10, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(10, 14, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=224, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[3, 1, 0], [2, 11, 1]]
+selected  UNIMP indices  [[4], [5, 0]]
+LeNet(
+  (conv1): Conv2d(1, 9, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(9, 12, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=192, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[3, 1, 0], [4, 0, 1]]
+selected  UNIMP indices  [[4], [6, 7]]
+LeNet(
+  (conv1): Conv2d(1, 8, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(8, 10, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=160, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[3, 1, 0], [4, 7, 0]]
+selected  UNIMP indices  [[4], [6]]
+LeNet(
+  (conv1): Conv2d(1, 7, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(7, 8, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=128, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[3, 1, 0], [4, 6, 0]]
+selected  UNIMP indices  [[4], [2]]
+LeNet(
+  (conv1): Conv2d(1, 6, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(6, 7, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=112, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[3, 1, 0], [1, 0, 5]]
+selected  UNIMP indices  [[4], [4]]
+LeNet(
+  (conv1): Conv2d(1, 5, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(5, 6, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=96, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[3, 1, 0], [1, 4, 0]]
+selected  UNIMP indices  [[2], [2]]
+LeNet(
+  (conv1): Conv2d(1, 4, kernel_size=(5, 5), stride=(1, 1))
+  (conv2): Conv2d(4, 5, kernel_size=(5, 5), stride=(1, 1))
+  (fc1): Linear(in_features=80, out_features=800, bias=True)
+  (fc2): Linear(in_features=800, out_features=500, bias=True)
+  (fc3): Linear(in_features=500, out_features=10, bias=True)
+  (softmax): Softmax(dim=1)
+)
+new-model starts....for  30  epochs
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.1
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+0.0010000000000000002
+selected IMP indices  [[2, 0, 1], [1, 2, 0]]
+selected  UNIMP indices  [[], [3]]
+Following files will be zipped:
+/workspace/Pruning/UFKT/LeNet-5/pruningmethod.py
+/workspace/Pruning/UFKT/LeNet-5/network.py
+/workspace/Pruning/UFKT/LeNet-5/lenet_ex.py
+/workspace/Pruning/UFKT/LeNet-5/LeNet.py
