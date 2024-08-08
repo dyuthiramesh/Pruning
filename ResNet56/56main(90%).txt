@@ -1,0 +1,1506 @@
+Files already downloaded and verified
+Files already downloaded and verified
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_normalization() for <class 'torch.nn.modules.batchnorm.BatchNorm2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.activation.ReLU'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[INFO] Register count_adap_avgpool() for <class 'torch.nn.modules.pooling.AdaptiveAvgPool2d'>.
+[INFO] Register count_linear() for <class 'torch.nn.modules.linear.Linear'>.
+Selected indices list: [[14], [2], [15], [7], [9], [7], [5], [15], [11], [21, 15], [17, 5], [9, 12], [4, 14], [11, 30], [3, 22], [25, 19], [21, 7], [8, 19], [33, 13, 30, 15], [32, 17, 36, 8], [9, 2, 11, 1], [16, 24, 11, 22], [3, 51, 59, 21], [1, 42, 2, 61], [34, 3, 63, 23], [16, 21, 37, 46], [11, 58, 35, 42]]
+Remaining indices list: [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15], [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15], [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15], [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15], [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31], [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30, 31], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31], [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63], [0, 3, 4, 5, 6, 7, 8, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 18, 19, 20, 21, 23, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63], [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63], [0, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 62, 63], [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 63]]
+Epoch [1/40], Train Accuracy: 95.00%
+Pruning Iteration 1, Epoch [1/40], Old Loss: 0.14594718, New Loss: 0.14324863
+Regularization term: 2.029942035675049, Decorrelation term: 4.9574503898620605
+Epoch [1/40], Test Accuracy: 89.94%
+Epoch [2/40], Train Accuracy: 96.06%
+Pruning Iteration 1, Epoch [2/40], Old Loss: 0.11314519, New Loss: 0.11045429
+Regularization term: 2.0022995471954346, Decorrelation term: 4.686348915100098
+Epoch [2/40], Test Accuracy: 90.17%
+Epoch [3/40], Train Accuracy: 96.85%
+Pruning Iteration 1, Epoch [3/40], Old Loss: 0.09235439, New Loss: 0.08948287
+Regularization term: 2.0126922130584717, Decorrelation term: 4.965077877044678
+Epoch [3/40], Test Accuracy: 89.78%
+Epoch [4/40], Train Accuracy: 96.96%
+Pruning Iteration 1, Epoch [4/40], Old Loss: 0.08798688, New Loss: 0.08524533
+Regularization term: 2.0016207695007324, Decorrelation term: 5.706379413604736
+Epoch [4/40], Test Accuracy: 90.35%
+Epoch [5/40], Train Accuracy: 97.33%
+Pruning Iteration 1, Epoch [5/40], Old Loss: 0.07868585, New Loss: 0.07497916
+Regularization term: 1.891762137413025, Decorrelation term: 7.822689056396484
+Epoch [5/40], Test Accuracy: 90.65%
+Epoch [6/40], Train Accuracy: 97.56%
+Pruning Iteration 1, Epoch [6/40], Old Loss: 0.07050901, New Loss: 0.06644549
+Regularization term: 1.9524730443954468, Decorrelation term: 4.035316467285156
+Epoch [6/40], Test Accuracy: 90.48%
+Epoch [7/40], Train Accuracy: 97.95%
+Pruning Iteration 1, Epoch [7/40], Old Loss: 0.06165228, New Loss: 0.05701249
+Regularization term: 1.9927527904510498, Decorrelation term: 6.691982746124268
+Epoch [7/40], Test Accuracy: 90.24%
+Epoch [8/40], Train Accuracy: 97.88%
+Pruning Iteration 1, Epoch [8/40], Old Loss: 0.06282814, New Loss: 0.05796313
+Regularization term: 1.9331743717193604, Decorrelation term: 7.957639217376709
+Epoch [8/40], Test Accuracy: 89.87%
+Epoch [9/40], Train Accuracy: 97.73%
+Pruning Iteration 1, Epoch [9/40], Old Loss: 0.06658782, New Loss: 0.06396924
+Regularization term: 1.9583550691604614, Decorrelation term: 3.2365450859069824
+Epoch [9/40], Test Accuracy: 89.97%
+Epoch [10/40], Train Accuracy: 97.81%
+Pruning Iteration 1, Epoch [10/40], Old Loss: 0.06447920, New Loss: 0.06004157
+Regularization term: 1.969314694404602, Decorrelation term: 6.445135593414307
+Epoch [10/40], Test Accuracy: 90.45%
+Epoch [11/40], Train Accuracy: 97.89%
+Pruning Iteration 1, Epoch [11/40], Old Loss: 0.06229959, New Loss: 0.05811183
+Regularization term: 2.0223591327667236, Decorrelation term: 5.181732177734375
+Epoch [11/40], Test Accuracy: 90.30%
+Epoch [12/40], Train Accuracy: 97.93%
+Pruning Iteration 1, Epoch [12/40], Old Loss: 0.06158476, New Loss: 0.05703532
+Regularization term: 1.9487487077713013, Decorrelation term: 6.724192142486572
+Epoch [12/40], Test Accuracy: 90.64%
+Epoch [13/40], Train Accuracy: 97.65%
+Pruning Iteration 1, Epoch [13/40], Old Loss: 0.06848740, New Loss: 0.06471445
+Regularization term: 1.9780070781707764, Decorrelation term: 8.820663452148438
+Epoch [13/40], Test Accuracy: 90.29%
+Epoch [14/40], Train Accuracy: 97.74%
+Pruning Iteration 1, Epoch [14/40], Old Loss: 0.06594890, New Loss: 0.06251089
+Regularization term: 2.0248193740844727, Decorrelation term: 5.1056060791015625
+Epoch [14/40], Test Accuracy: 89.72%
+Epoch [15/40], Train Accuracy: 97.95%
+Pruning Iteration 1, Epoch [15/40], Old Loss: 0.05968477, New Loss: 0.05641759
+Regularization term: 2.0203208923339844, Decorrelation term: 3.470409870147705
+Epoch [15/40], Test Accuracy: 90.48%
+Epoch [16/40], Train Accuracy: 97.73%
+Pruning Iteration 1, Epoch [16/40], Old Loss: 0.06712604, New Loss: 0.06223113
+Regularization term: 2.0042967796325684, Decorrelation term: 5.460258483886719
+Epoch [16/40], Test Accuracy: 90.48%
+Epoch [17/40], Train Accuracy: 97.79%
+Pruning Iteration 1, Epoch [17/40], Old Loss: 0.06485307, New Loss: 0.06030457
+Regularization term: 1.96780526638031, Decorrelation term: 4.862078666687012
+Epoch [17/40], Test Accuracy: 89.74%
+Epoch [18/40], Train Accuracy: 97.77%
+Pruning Iteration 1, Epoch [18/40], Old Loss: 0.06608464, New Loss: 0.06287209
+Regularization term: 1.9217649698257446, Decorrelation term: 5.386922836303711
+Epoch [18/40], Test Accuracy: 90.71%
+Epoch [19/40], Train Accuracy: 97.96%
+Pruning Iteration 1, Epoch [19/40], Old Loss: 0.05879624, New Loss: 0.05523334
+Regularization term: 1.97970712184906, Decorrelation term: 5.068361282348633
+Epoch [19/40], Test Accuracy: 90.31%
+Epoch [20/40], Train Accuracy: 97.84%
+Pruning Iteration 1, Epoch [20/40], Old Loss: 0.06110170, New Loss: 0.05665057
+Regularization term: 2.0056209564208984, Decorrelation term: 6.923593521118164
+Epoch [20/40], Test Accuracy: 89.96%
+Epoch [21/40], Train Accuracy: 97.87%
+Pruning Iteration 1, Epoch [21/40], Old Loss: 0.06333494, New Loss: 0.05823479
+Regularization term: 1.9290263652801514, Decorrelation term: 7.540844440460205
+Epoch [21/40], Test Accuracy: 89.95%
+Epoch [22/40], Train Accuracy: 98.09%
+Pruning Iteration 1, Epoch [22/40], Old Loss: 0.05618219, New Loss: 0.05180833
+Regularization term: 1.9879175424575806, Decorrelation term: 6.375195026397705
+Epoch [22/40], Test Accuracy: 89.87%
+Epoch [23/40], Train Accuracy: 98.01%
+Pruning Iteration 1, Epoch [23/40], Old Loss: 0.05823533, New Loss: 0.05412061
+Regularization term: 1.9887834787368774, Decorrelation term: 7.939056396484375
+Epoch [23/40], Test Accuracy: 90.43%
+Epoch [24/40], Train Accuracy: 97.97%
+Pruning Iteration 1, Epoch [24/40], Old Loss: 0.05937978, New Loss: 0.05446438
+Regularization term: 1.9511791467666626, Decorrelation term: 5.9952263832092285
+Epoch [24/40], Test Accuracy: 90.35%
+Epoch [25/40], Train Accuracy: 98.03%
+Pruning Iteration 1, Epoch [25/40], Old Loss: 0.05809618, New Loss: 0.05316624
+Regularization term: 1.9161015748977661, Decorrelation term: 7.790069103240967
+Epoch [25/40], Test Accuracy: 90.20%
+Epoch [26/40], Train Accuracy: 97.92%
+Pruning Iteration 1, Epoch [26/40], Old Loss: 0.05986166, New Loss: 0.05497206
+Regularization term: 1.9339263439178467, Decorrelation term: 7.243862152099609
+Epoch [26/40], Test Accuracy: 89.55%
+Epoch [27/40], Train Accuracy: 97.93%
+Pruning Iteration 1, Epoch [27/40], Old Loss: 0.05964586, New Loss: 0.05552402
+Regularization term: 1.956234335899353, Decorrelation term: 7.360004901885986
+Epoch [27/40], Test Accuracy: 89.51%
+Epoch [28/40], Train Accuracy: 97.98%
+Pruning Iteration 1, Epoch [28/40], Old Loss: 0.05979163, New Loss: 0.05505865
+Regularization term: 1.9488787651062012, Decorrelation term: 8.186697959899902
+Epoch [28/40], Test Accuracy: 90.25%
+Epoch [29/40], Train Accuracy: 97.93%
+Pruning Iteration 1, Epoch [29/40], Old Loss: 0.05877937, New Loss: 0.05415522
+Regularization term: 1.9769998788833618, Decorrelation term: 7.083075523376465
+Epoch [29/40], Test Accuracy: 89.62%
+Epoch [30/40], Train Accuracy: 98.16%
+Pruning Iteration 1, Epoch [30/40], Old Loss: 0.05364854, New Loss: 0.04892491
+Regularization term: 1.9511765241622925, Decorrelation term: 5.7438130378723145
+Epoch [30/40], Test Accuracy: 90.46%
+Epoch [31/40], Train Accuracy: 97.82%
+Pruning Iteration 1, Epoch [31/40], Old Loss: 0.06228490, New Loss: 0.05806595
+Regularization term: 1.8894305229187012, Decorrelation term: 7.036523342132568
+Epoch [31/40], Test Accuracy: 90.92%
+Epoch [32/40], Train Accuracy: 98.29%
+Pruning Iteration 1, Epoch [32/40], Old Loss: 0.05058596, New Loss: 0.04466495
+Regularization term: 1.9017785787582397, Decorrelation term: 7.684286594390869
+Epoch [32/40], Test Accuracy: 90.30%
+Epoch [33/40], Train Accuracy: 98.31%
+Pruning Iteration 1, Epoch [33/40], Old Loss: 0.05071269, New Loss: 0.04441701
+Regularization term: 1.9977681636810303, Decorrelation term: 6.341989994049072
+Epoch [33/40], Test Accuracy: 90.13%
+Epoch [34/40], Train Accuracy: 98.46%
+Pruning Iteration 1, Epoch [34/40], Old Loss: 0.04643156, New Loss: 0.04089657
+Regularization term: 1.8743879795074463, Decorrelation term: 6.061384201049805
+Epoch [34/40], Test Accuracy: 90.56%
+Epoch [35/40], Train Accuracy: 98.15%
+Pruning Iteration 1, Epoch [35/40], Old Loss: 0.05442728, New Loss: 0.04962673
+Regularization term: 1.9919182062149048, Decorrelation term: 7.7378411293029785
+Epoch [35/40], Test Accuracy: 89.94%
+Epoch [36/40], Train Accuracy: 98.23%
+Pruning Iteration 1, Epoch [36/40], Old Loss: 0.05010409, New Loss: 0.04349497
+Regularization term: 1.8943634033203125, Decorrelation term: 7.82240104675293
+Epoch [36/40], Test Accuracy: 89.95%
+Epoch [37/40], Train Accuracy: 98.29%
+Pruning Iteration 1, Epoch [37/40], Old Loss: 0.04985917, New Loss: 0.04540136
+Regularization term: 1.9706941843032837, Decorrelation term: 8.07457447052002
+Epoch [37/40], Test Accuracy: 90.83%
+Epoch [38/40], Train Accuracy: 98.39%
+Pruning Iteration 1, Epoch [38/40], Old Loss: 0.04816697, New Loss: 0.04392683
+Regularization term: 1.8291206359863281, Decorrelation term: 7.093561172485352
+Epoch [38/40], Test Accuracy: 90.15%
+Epoch [39/40], Train Accuracy: 98.29%
+Pruning Iteration 1, Epoch [39/40], Old Loss: 0.05031511, New Loss: 0.04455166
+Regularization term: 1.910083293914795, Decorrelation term: 6.080531120300293
+Epoch [39/40], Test Accuracy: 90.32%
+Epoch [40/40], Train Accuracy: 98.30%
+Pruning Iteration 1, Epoch [40/40], Old Loss: 0.05041467, New Loss: 0.04622548
+Regularization term: 1.9739782810211182, Decorrelation term: 5.916234970092773
+Epoch [40/40], Test Accuracy: 90.22%
+Stage 1 - Remaining Filters: 16
+Stage 2 - Remaining Filters: 32
+Stage 3 - Remaining Filters: 64
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_normalization() for <class 'torch.nn.modules.batchnorm.BatchNorm2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.activation.ReLU'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[INFO] Register count_adap_avgpool() for <class 'torch.nn.modules.pooling.AdaptiveAvgPool2d'>.
+[INFO] Register count_linear() for <class 'torch.nn.modules.linear.Linear'>.
+Total FLOPs: 127619776.0, Total Params: 853018.0
+Starting AP Training
+AP_Epoch [1/40], AP Train Accuracy: 97.41%,  AP Old Loss: 0.07627173, AP New Loss: 0.10390960, AP Finetuning term: 0.0026778285391628742
+AP Epoch [1/40], Test Accuracy: 90.06%
+AP_Epoch [2/40], AP Train Accuracy: 97.97%,  AP Old Loss: 0.05914194, AP New Loss: 0.08533890, AP Finetuning term: 0.0025437125004827976
+AP Epoch [2/40], Test Accuracy: 90.18%
+AP_Epoch [3/40], AP Train Accuracy: 98.55%,  AP Old Loss: 0.04471757, AP New Loss: 0.06974165, AP Finetuning term: 0.0024467988405376673
+AP Epoch [3/40], Test Accuracy: 90.31%
+AP_Epoch [4/40], AP Train Accuracy: 98.43%,  AP Old Loss: 0.04559926, AP New Loss: 0.06962379, AP Finetuning term: 0.0023474127519875765
+AP Epoch [4/40], Test Accuracy: 90.06%
+AP_Epoch [5/40], AP Train Accuracy: 98.59%,  AP Old Loss: 0.04206642, AP New Loss: 0.06612711, AP Finetuning term: 0.0023564037401229143
+AP Epoch [5/40], Test Accuracy: 90.10%
+AP_Epoch [6/40], AP Train Accuracy: 98.42%,  AP Old Loss: 0.04571565, AP New Loss: 0.06971300, AP Finetuning term: 0.0023511454928666353
+AP Epoch [6/40], Test Accuracy: 89.98%
+AP_Epoch [7/40], AP Train Accuracy: 98.42%,  AP Old Loss: 0.04650896, AP New Loss: 0.07052867, AP Finetuning term: 0.0023491764441132545
+AP Epoch [7/40], Test Accuracy: 90.10%
+AP_Epoch [8/40], AP Train Accuracy: 98.53%,  AP Old Loss: 0.04498817, AP New Loss: 0.06900819, AP Finetuning term: 0.002353224903345108
+AP Epoch [8/40], Test Accuracy: 90.45%
+AP_Epoch [9/40], AP Train Accuracy: 98.81%,  AP Old Loss: 0.03595157, AP New Loss: 0.05912648, AP Finetuning term: 0.0022743826266378164
+AP Epoch [9/40], Test Accuracy: 90.22%
+AP_Epoch [10/40], AP Train Accuracy: 98.74%,  AP Old Loss: 0.03754533, AP New Loss: 0.06071585, AP Finetuning term: 0.0022724983282387257
+AP Epoch [10/40], Test Accuracy: 90.21%
+AP_Epoch [11/40], AP Train Accuracy: 98.57%,  AP Old Loss: 0.04083335, AP New Loss: 0.06397372, AP Finetuning term: 0.002268377924337983
+AP Epoch [11/40], Test Accuracy: 90.11%
+AP_Epoch [12/40], AP Train Accuracy: 98.69%,  AP Old Loss: 0.04099387, AP New Loss: 0.06413616, AP Finetuning term: 0.002268166048452258
+AP Epoch [12/40], Test Accuracy: 89.77%
+AP_Epoch [13/40], AP Train Accuracy: 98.60%,  AP Old Loss: 0.04106172, AP New Loss: 0.06421479, AP Finetuning term: 0.002267412142828107
+AP Epoch [13/40], Test Accuracy: 90.46%
+AP_Epoch [14/40], AP Train Accuracy: 98.81%,  AP Old Loss: 0.03554910, AP New Loss: 0.05786802, AP Finetuning term: 0.002195091685280204
+AP Epoch [14/40], Test Accuracy: 90.02%
+AP_Epoch [15/40], AP Train Accuracy: 98.96%,  AP Old Loss: 0.03043557, AP New Loss: 0.05280495, AP Finetuning term: 0.0022018542513251305
+AP Epoch [15/40], Test Accuracy: 90.08%
+AP_Epoch [16/40], AP Train Accuracy: 98.73%,  AP Old Loss: 0.03759233, AP New Loss: 0.05993339, AP Finetuning term: 0.0021898518316447735
+AP Epoch [16/40], Test Accuracy: 90.25%
+AP_Epoch [17/40], AP Train Accuracy: 98.91%,  AP Old Loss: 0.03412830, AP New Loss: 0.05649971, AP Finetuning term: 0.002194936852902174
+AP Epoch [17/40], Test Accuracy: 89.63%
+AP_Epoch [18/40], AP Train Accuracy: 98.89%,  AP Old Loss: 0.03538686, AP New Loss: 0.05772638, AP Finetuning term: 0.0021963429171591997
+AP Epoch [18/40], Test Accuracy: 89.91%
+AP_Epoch [19/40], AP Train Accuracy: 98.74%,  AP Old Loss: 0.03733028, AP New Loss: 0.05964353, AP Finetuning term: 0.0021935703698545694
+AP Epoch [19/40], Test Accuracy: 90.61%
+AP_Epoch [20/40], AP Train Accuracy: 98.70%,  AP Old Loss: 0.03803745, AP New Loss: 0.05966134, AP Finetuning term: 0.002120131393894553
+AP Epoch [20/40], Test Accuracy: 90.29%
+AP_Epoch [21/40], AP Train Accuracy: 98.74%,  AP Old Loss: 0.03545501, AP New Loss: 0.05706642, AP Finetuning term: 0.0021249805577099323
+AP Epoch [21/40], Test Accuracy: 90.49%
+AP_Epoch [22/40], AP Train Accuracy: 98.78%,  AP Old Loss: 0.03712693, AP New Loss: 0.05874203, AP Finetuning term: 0.002122753532603383
+AP Epoch [22/40], Test Accuracy: 90.45%
+AP_Epoch [23/40], AP Train Accuracy: 98.87%,  AP Old Loss: 0.03342261, AP New Loss: 0.05505189, AP Finetuning term: 0.0021265263203531504
+AP Epoch [23/40], Test Accuracy: 90.30%
+AP_Epoch [24/40], AP Train Accuracy: 98.89%,  AP Old Loss: 0.03312274, AP New Loss: 0.05476858, AP Finetuning term: 0.002127631800249219
+AP Epoch [24/40], Test Accuracy: 89.75%
+AP_Epoch [25/40], AP Train Accuracy: 98.86%,  AP Old Loss: 0.03267360, AP New Loss: 0.05430304, AP Finetuning term: 0.0021284122485667467
+AP Epoch [25/40], Test Accuracy: 90.73%
+AP_Epoch [26/40], AP Train Accuracy: 98.93%,  AP Old Loss: 0.03123355, AP New Loss: 0.05222543, AP Finetuning term: 0.002067399676889181
+AP Epoch [26/40], Test Accuracy: 90.45%
+AP_Epoch [27/40], AP Train Accuracy: 98.78%,  AP Old Loss: 0.03553318, AP New Loss: 0.05650189, AP Finetuning term: 0.002061703475192189
+AP Epoch [27/40], Test Accuracy: 90.31%
+AP_Epoch [28/40], AP Train Accuracy: 98.80%,  AP Old Loss: 0.03554795, AP New Loss: 0.05651650, AP Finetuning term: 0.002060533966869116
+AP Epoch [28/40], Test Accuracy: 90.16%
+AP_Epoch [29/40], AP Train Accuracy: 98.73%,  AP Old Loss: 0.03793319, AP New Loss: 0.05890417, AP Finetuning term: 0.0020566037856042385
+AP Epoch [29/40], Test Accuracy: 89.77%
+AP_Epoch [30/40], AP Train Accuracy: 98.67%,  AP Old Loss: 0.03800350, AP New Loss: 0.05896701, AP Finetuning term: 0.002057405887171626
+AP Epoch [30/40], Test Accuracy: 90.56%
+AP_Epoch [31/40], AP Train Accuracy: 98.93%,  AP Old Loss: 0.03412400, AP New Loss: 0.05510477, AP Finetuning term: 0.002062595449388027
+AP Epoch [31/40], Test Accuracy: 90.71%
+AP_Epoch [32/40], AP Train Accuracy: 98.90%,  AP Old Loss: 0.03237183, AP New Loss: 0.05337720, AP Finetuning term: 0.002064140047878027
+AP Epoch [32/40], Test Accuracy: 90.70%
+AP_Epoch [33/40], AP Train Accuracy: 98.82%,  AP Old Loss: 0.03488079, AP New Loss: 0.05586064, AP Finetuning term: 0.0020598354749381542
+AP Epoch [33/40], Test Accuracy: 90.31%
+AP_Epoch [34/40], AP Train Accuracy: 98.87%,  AP Old Loss: 0.03306018, AP New Loss: 0.05404778, AP Finetuning term: 0.002062408486381173
+AP Epoch [34/40], Test Accuracy: 90.22%
+AP_Epoch [35/40], AP Train Accuracy: 98.74%,  AP Old Loss: 0.03750926, AP New Loss: 0.05847617, AP Finetuning term: 0.0020576186943799257
+AP Epoch [35/40], Test Accuracy: 89.62%
+AP_Epoch [36/40], AP Train Accuracy: 98.94%,  AP Old Loss: 0.03171177, AP New Loss: 0.05270374, AP Finetuning term: 0.002064943313598633
+AP Epoch [36/40], Test Accuracy: 90.48%
+AP_Epoch [37/40], AP Train Accuracy: 98.90%,  AP Old Loss: 0.03395146, AP New Loss: 0.05493177, AP Finetuning term: 0.0020622038282454014
+AP Epoch [37/40], Test Accuracy: 89.67%
+AP_Epoch [38/40], AP Train Accuracy: 98.94%,  AP Old Loss: 0.03103667, AP New Loss: 0.05204789, AP Finetuning term: 0.0020661763846874237
+AP Epoch [38/40], Test Accuracy: 89.99%
+AP_Epoch [39/40], AP Train Accuracy: 98.78%,  AP Old Loss: 0.03446514, AP New Loss: 0.05541975, AP Finetuning term: 0.0020610694773495197
+AP Epoch [39/40], Test Accuracy: 90.40%
+AP_Epoch [40/40], AP Train Accuracy: 98.73%,  AP Old Loss: 0.03720160, AP New Loss: 0.05816778, AP Finetuning term: 0.002059314865618944
+AP Epoch [40/40], Test Accuracy: 89.10%
+Iteration Completed
+
+
+Selected indices list: [[4], [2], [14], [14], [12], [0], [1], [0], [7], [1, 26], [14, 7], [9, 22], [19, 22], [10, 4], [25, 5], [19, 22], [24, 27], [0, 26], [8, 43, 51, 22], [56, 9, 33, 31], [40, 41, 19, 23], [33, 58, 5, 39], [32, 41, 48, 47], [9, 50, 52, 13], [16, 50, 44, 55], [33, 2, 46, 1], [0, 40, 38, 15]]
+Remaining indices list: [[0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14], [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29], [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25, 26, 27, 28, 29], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 28, 29], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50, 52, 53, 54, 55, 56, 57, 58, 59], [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59], [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 45, 46, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59], [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 51, 53, 54, 55, 56, 57, 58, 59], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 45, 46, 47, 48, 49, 51, 52, 53, 54, 56, 57, 58, 59], [0, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]]
+Epoch [1/40], Train Accuracy: 99.09%
+Pruning Iteration 2, Epoch [1/40], Old Loss: 0.02884429, New Loss: 0.02252669
+Regularization term: 2.7362375259399414, Decorrelation term: 9.39685344696045
+Epoch [1/40], Test Accuracy: 89.47%
+Epoch [2/40], Train Accuracy: 98.61%
+Pruning Iteration 2, Epoch [2/40], Old Loss: 0.03944177, New Loss: 0.03205694
+Regularization term: 2.744541883468628, Decorrelation term: 8.163721084594727
+Epoch [2/40], Test Accuracy: 90.06%
+Epoch [3/40], Train Accuracy: 98.98%
+Pruning Iteration 2, Epoch [3/40], Old Loss: 0.02914722, New Loss: 0.02274080
+Regularization term: 2.7565038204193115, Decorrelation term: 11.146997451782227
+Epoch [3/40], Test Accuracy: 89.93%
+Epoch [4/40], Train Accuracy: 98.98%
+Pruning Iteration 2, Epoch [4/40], Old Loss: 0.02968152, New Loss: 0.02417920
+Regularization term: 2.700010299682617, Decorrelation term: 6.722756385803223
+Epoch [4/40], Test Accuracy: 90.40%
+Epoch [5/40], Train Accuracy: 99.08%
+Pruning Iteration 2, Epoch [5/40], Old Loss: 0.02648497, New Loss: 0.02228461
+Regularization term: 2.754643201828003, Decorrelation term: 10.514732360839844
+Epoch [5/40], Test Accuracy: 90.41%
+Epoch [6/40], Train Accuracy: 99.00%
+Pruning Iteration 2, Epoch [6/40], Old Loss: 0.03011870, New Loss: 0.02299529
+Regularization term: 2.7932488918304443, Decorrelation term: 12.885735511779785
+Epoch [6/40], Test Accuracy: 90.64%
+Epoch [7/40], Train Accuracy: 99.01%
+Pruning Iteration 2, Epoch [7/40], Old Loss: 0.02953834, New Loss: 0.01919350
+Regularization term: 2.832136631011963, Decorrelation term: 12.709833145141602
+Epoch [7/40], Test Accuracy: 90.43%
+Epoch [8/40], Train Accuracy: 99.04%
+Pruning Iteration 2, Epoch [8/40], Old Loss: 0.02832926, New Loss: 0.01937932
+Regularization term: 2.810748815536499, Decorrelation term: 12.993608474731445
+Epoch [8/40], Test Accuracy: 90.81%
+Epoch [9/40], Train Accuracy: 99.37%
+Pruning Iteration 2, Epoch [9/40], Old Loss: 0.01937549, New Loss: 0.00979977
+Regularization term: 2.815922260284424, Decorrelation term: 13.943663597106934
+Epoch [9/40], Test Accuracy: 90.26%
+Epoch [10/40], Train Accuracy: 99.16%
+Pruning Iteration 2, Epoch [10/40], Old Loss: 0.02361073, New Loss: 0.01468738
+Regularization term: 2.8157155513763428, Decorrelation term: 10.794755935668945
+Epoch [10/40], Test Accuracy: 89.98%
+Epoch [11/40], Train Accuracy: 99.37%
+Pruning Iteration 2, Epoch [11/40], Old Loss: 0.01929583, New Loss: 0.01015115
+Regularization term: 2.815274715423584, Decorrelation term: 12.73858642578125
+Epoch [11/40], Test Accuracy: 90.51%
+Epoch [12/40], Train Accuracy: 99.27%
+Pruning Iteration 2, Epoch [12/40], Old Loss: 0.02185192, New Loss: 0.01219077
+Regularization term: 2.7348430156707764, Decorrelation term: 12.66062068939209
+Epoch [12/40], Test Accuracy: 90.21%
+Epoch [13/40], Train Accuracy: 99.30%
+Pruning Iteration 2, Epoch [13/40], Old Loss: 0.02067267, New Loss: 0.01063924
+Regularization term: 2.783726692199707, Decorrelation term: 12.132253646850586
+Epoch [13/40], Test Accuracy: 90.10%
+Epoch [14/40], Train Accuracy: 99.53%
+Pruning Iteration 2, Epoch [14/40], Old Loss: 0.01532066, New Loss: 0.00523390
+Regularization term: 2.754652738571167, Decorrelation term: 14.027711868286133
+Epoch [14/40], Test Accuracy: 89.93%
+Epoch [15/40], Train Accuracy: 99.37%
+Pruning Iteration 2, Epoch [15/40], Old Loss: 0.01904453, New Loss: 0.01067304
+Regularization term: 2.832245111465454, Decorrelation term: 10.550775527954102
+Epoch [15/40], Test Accuracy: 90.49%
+Epoch [16/40], Train Accuracy: 99.41%
+Pruning Iteration 2, Epoch [16/40], Old Loss: 0.01780288, New Loss: 0.00793067
+Regularization term: 2.8032188415527344, Decorrelation term: 12.219526290893555
+Epoch [16/40], Test Accuracy: 90.34%
+Epoch [17/40], Train Accuracy: 99.31%
+Pruning Iteration 2, Epoch [17/40], Old Loss: 0.02154447, New Loss: 0.01156726
+Regularization term: 2.845564365386963, Decorrelation term: 14.519792556762695
+Epoch [17/40], Test Accuracy: 90.39%
+Epoch [18/40], Train Accuracy: 99.38%
+Pruning Iteration 2, Epoch [18/40], Old Loss: 0.01871091, New Loss: 0.00805700
+Regularization term: 2.776686668395996, Decorrelation term: 13.180712699890137
+Epoch [18/40], Test Accuracy: 90.31%
+Epoch [19/40], Train Accuracy: 99.24%
+Pruning Iteration 2, Epoch [19/40], Old Loss: 0.02212130, New Loss: 0.01203606
+Regularization term: 2.829984664916992, Decorrelation term: 12.725203514099121
+Epoch [19/40], Test Accuracy: 90.45%
+Epoch [20/40], Train Accuracy: 99.31%
+Pruning Iteration 2, Epoch [20/40], Old Loss: 0.01975764, New Loss: 0.01032426
+Regularization term: 2.804628372192383, Decorrelation term: 11.466572761535645
+Epoch [20/40], Test Accuracy: 90.64%
+Epoch [21/40], Train Accuracy: 99.44%
+Pruning Iteration 2, Epoch [21/40], Old Loss: 0.01699761, New Loss: 0.00706946
+Regularization term: 2.8803892135620117, Decorrelation term: 13.124361038208008
+Epoch [21/40], Test Accuracy: 90.56%
+Epoch [22/40], Train Accuracy: 99.34%
+Pruning Iteration 2, Epoch [22/40], Old Loss: 0.02033306, New Loss: 0.00988894
+Regularization term: 2.8287105560302734, Decorrelation term: 12.848583221435547
+Epoch [22/40], Test Accuracy: 90.02%
+Epoch [23/40], Train Accuracy: 99.33%
+Pruning Iteration 2, Epoch [23/40], Old Loss: 0.01997985, New Loss: 0.00929733
+Regularization term: 2.875471591949463, Decorrelation term: 13.989019393920898
+Epoch [23/40], Test Accuracy: 89.89%
+Epoch [24/40], Train Accuracy: 99.35%
+Pruning Iteration 2, Epoch [24/40], Old Loss: 0.01922247, New Loss: 0.00938528
+Regularization term: 2.8339967727661133, Decorrelation term: 13.05668830871582
+Epoch [24/40], Test Accuracy: 90.79%
+Epoch [25/40], Train Accuracy: 99.50%
+Pruning Iteration 2, Epoch [25/40], Old Loss: 0.01632809, New Loss: 0.00739636
+Regularization term: 2.7804019451141357, Decorrelation term: 13.178302764892578
+Epoch [25/40], Test Accuracy: 90.00%
+Epoch [26/40], Train Accuracy: 99.30%
+Pruning Iteration 2, Epoch [26/40], Old Loss: 0.02120218, New Loss: 0.01191395
+Regularization term: 2.8287222385406494, Decorrelation term: 11.239540100097656
+Epoch [26/40], Test Accuracy: 90.70%
+Epoch [27/40], Train Accuracy: 99.42%
+Pruning Iteration 2, Epoch [27/40], Old Loss: 0.01808198, New Loss: 0.00844390
+Regularization term: 2.891540288925171, Decorrelation term: 11.280401229858398
+Epoch [27/40], Test Accuracy: 89.66%
+Epoch [28/40], Train Accuracy: 99.41%
+Pruning Iteration 2, Epoch [28/40], Old Loss: 0.01759905, New Loss: 0.00752532
+Regularization term: 2.8845648765563965, Decorrelation term: 14.376296997070312
+Epoch [28/40], Test Accuracy: 90.41%
+Epoch [29/40], Train Accuracy: 99.24%
+Pruning Iteration 2, Epoch [29/40], Old Loss: 0.02241250, New Loss: 0.01298150
+Regularization term: 2.816110849380493, Decorrelation term: 11.06863021850586
+Epoch [29/40], Test Accuracy: 89.97%
+Epoch [30/40], Train Accuracy: 99.45%
+Pruning Iteration 2, Epoch [30/40], Old Loss: 0.01720862, New Loss: 0.00850037
+Regularization term: 2.895981788635254, Decorrelation term: 13.372090339660645
+Epoch [30/40], Test Accuracy: 90.62%
+Epoch [31/40], Train Accuracy: 99.39%
+Pruning Iteration 2, Epoch [31/40], Old Loss: 0.01830833, New Loss: 0.00852506
+Regularization term: 2.8077151775360107, Decorrelation term: 12.714609146118164
+Epoch [31/40], Test Accuracy: 90.14%
+Epoch [32/40], Train Accuracy: 99.36%
+Pruning Iteration 2, Epoch [32/40], Old Loss: 0.02005814, New Loss: 0.01079272
+Regularization term: 2.8357338905334473, Decorrelation term: 12.225848197937012
+Epoch [32/40], Test Accuracy: 89.96%
+Epoch [33/40], Train Accuracy: 99.48%
+Pruning Iteration 2, Epoch [33/40], Old Loss: 0.01629496, New Loss: 0.00694455
+Regularization term: 2.773061513900757, Decorrelation term: 11.149370193481445
+Epoch [33/40], Test Accuracy: 90.82%
+Epoch [34/40], Train Accuracy: 99.05%
+Pruning Iteration 2, Epoch [34/40], Old Loss: 0.02829884, New Loss: 0.01936899
+Regularization term: 2.8581433296203613, Decorrelation term: 10.075440406799316
+Epoch [34/40], Test Accuracy: 89.41%
+Epoch [35/40], Train Accuracy: 99.12%
+Pruning Iteration 2, Epoch [35/40], Old Loss: 0.02582104, New Loss: 0.01522474
+Regularization term: 2.8708860874176025, Decorrelation term: 11.867886543273926
+Epoch [35/40], Test Accuracy: 90.11%
+Epoch [36/40], Train Accuracy: 99.14%
+Pruning Iteration 2, Epoch [36/40], Old Loss: 0.02527946, New Loss: 0.01584509
+Regularization term: 2.7532434463500977, Decorrelation term: 12.998261451721191
+Epoch [36/40], Test Accuracy: 90.25%
+Epoch [37/40], Train Accuracy: 99.22%
+Pruning Iteration 2, Epoch [37/40], Old Loss: 0.02273063, New Loss: 0.01162280
+Regularization term: 2.825326681137085, Decorrelation term: 15.261164665222168
+Epoch [37/40], Test Accuracy: 89.72%
+Epoch [38/40], Train Accuracy: 99.08%
+Pruning Iteration 2, Epoch [38/40], Old Loss: 0.02629505, New Loss: 0.01602976
+Regularization term: 2.7534749507904053, Decorrelation term: 11.354076385498047
+Epoch [38/40], Test Accuracy: 90.43%
+Epoch [39/40], Train Accuracy: 99.14%
+Pruning Iteration 2, Epoch [39/40], Old Loss: 0.02532292, New Loss: 0.01529080
+Regularization term: 2.734084129333496, Decorrelation term: 13.13562297821045
+Epoch [39/40], Test Accuracy: 90.04%
+Epoch [40/40], Train Accuracy: 99.21%
+Pruning Iteration 2, Epoch [40/40], Old Loss: 0.02396921, New Loss: 0.01383285
+Regularization term: 2.8725364208221436, Decorrelation term: 12.498318672180176
+Epoch [40/40], Test Accuracy: 90.22%
+Stage 1 - Remaining Filters: 15
+Stage 2 - Remaining Filters: 30
+Stage 3 - Remaining Filters: 60
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_normalization() for <class 'torch.nn.modules.batchnorm.BatchNorm2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.activation.ReLU'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[INFO] Register count_adap_avgpool() for <class 'torch.nn.modules.pooling.AdaptiveAvgPool2d'>.
+[INFO] Register count_linear() for <class 'torch.nn.modules.linear.Linear'>.
+Total FLOPs: 119740096.0, Total Params: 799900.0
+Starting AP Training
+AP_Epoch [1/40], AP Train Accuracy: 98.85%,  AP Old Loss: 0.03177094, AP New Loss: 0.04993543, AP Finetuning term: 0.0017939538229256868
+AP Epoch [1/40], Test Accuracy: 90.29%
+AP_Epoch [2/40], AP Train Accuracy: 99.28%,  AP Old Loss: 0.02184661, AP New Loss: 0.03963002, AP Finetuning term: 0.0017604355234652758
+AP Epoch [2/40], Test Accuracy: 90.37%
+AP_Epoch [3/40], AP Train Accuracy: 99.07%,  AP Old Loss: 0.02727293, AP New Loss: 0.04468765, AP Finetuning term: 0.0017183737363666296
+AP Epoch [3/40], Test Accuracy: 89.81%
+AP_Epoch [4/40], AP Train Accuracy: 99.13%,  AP Old Loss: 0.02594780, AP New Loss: 0.04337284, AP Finetuning term: 0.0017192679224535823
+AP Epoch [4/40], Test Accuracy: 89.78%
+AP_Epoch [5/40], AP Train Accuracy: 99.15%,  AP Old Loss: 0.02461700, AP New Loss: 0.04201724, AP Finetuning term: 0.0017203775933012366
+AP Epoch [5/40], Test Accuracy: 90.35%
+AP_Epoch [6/40], AP Train Accuracy: 99.08%,  AP Old Loss: 0.02755747, AP New Loss: 0.04496269, AP Finetuning term: 0.0017190458020195365
+AP Epoch [6/40], Test Accuracy: 89.61%
+AP_Epoch [7/40], AP Train Accuracy: 99.06%,  AP Old Loss: 0.02697569, AP New Loss: 0.04436971, AP Finetuning term: 0.0017169537022709846
+AP Epoch [7/40], Test Accuracy: 89.88%
+AP_Epoch [8/40], AP Train Accuracy: 99.08%,  AP Old Loss: 0.02711625, AP New Loss: 0.04451131, AP Finetuning term: 0.0017184778116643429
+AP Epoch [8/40], Test Accuracy: 90.04%
+AP_Epoch [9/40], AP Train Accuracy: 99.05%,  AP Old Loss: 0.02662997, AP New Loss: 0.04407200, AP Finetuning term: 0.0017174170352518559
+AP Epoch [9/40], Test Accuracy: 89.84%
+AP_Epoch [10/40], AP Train Accuracy: 99.04%,  AP Old Loss: 0.02792674, AP New Loss: 0.04533215, AP Finetuning term: 0.0017165172612294555
+AP Epoch [10/40], Test Accuracy: 89.75%
+AP_Epoch [11/40], AP Train Accuracy: 98.95%,  AP Old Loss: 0.03007709, AP New Loss: 0.04745982, AP Finetuning term: 0.001716299564577639
+AP Epoch [11/40], Test Accuracy: 90.19%
+AP_Epoch [12/40], AP Train Accuracy: 99.08%,  AP Old Loss: 0.02718417, AP New Loss: 0.04457930, AP Finetuning term: 0.0017196722328662872
+AP Epoch [12/40], Test Accuracy: 89.30%
+AP_Epoch [13/40], AP Train Accuracy: 99.03%,  AP Old Loss: 0.02713315, AP New Loss: 0.04454542, AP Finetuning term: 0.0017176185501739383
+AP Epoch [13/40], Test Accuracy: 90.20%
+AP_Epoch [14/40], AP Train Accuracy: 98.99%,  AP Old Loss: 0.03056698, AP New Loss: 0.04795409, AP Finetuning term: 0.0017158061964437366
+AP Epoch [14/40], Test Accuracy: 90.21%
+AP_Epoch [15/40], AP Train Accuracy: 98.94%,  AP Old Loss: 0.03076155, AP New Loss: 0.04814641, AP Finetuning term: 0.001715201768092811
+AP Epoch [15/40], Test Accuracy: 90.08%
+AP_Epoch [16/40], AP Train Accuracy: 99.11%,  AP Old Loss: 0.02661269, AP New Loss: 0.04401224, AP Finetuning term: 0.001719837891869247
+AP Epoch [16/40], Test Accuracy: 90.12%
+AP_Epoch [17/40], AP Train Accuracy: 99.14%,  AP Old Loss: 0.02577047, AP New Loss: 0.04319223, AP Finetuning term: 0.0017201898153871298
+AP Epoch [17/40], Test Accuracy: 89.90%
+AP_Epoch [18/40], AP Train Accuracy: 99.19%,  AP Old Loss: 0.02592089, AP New Loss: 0.04333930, AP Finetuning term: 0.0017202191520482302
+AP Epoch [18/40], Test Accuracy: 89.32%
+AP_Epoch [19/40], AP Train Accuracy: 99.00%,  AP Old Loss: 0.03039867, AP New Loss: 0.04778518, AP Finetuning term: 0.001716341357678175
+AP Epoch [19/40], Test Accuracy: 89.69%
+AP_Epoch [20/40], AP Train Accuracy: 98.99%,  AP Old Loss: 0.02866744, AP New Loss: 0.04606272, AP Finetuning term: 0.0017169093480333686
+AP Epoch [20/40], Test Accuracy: 89.92%
+AP_Epoch [21/40], AP Train Accuracy: 99.13%,  AP Old Loss: 0.02679145, AP New Loss: 0.04420542, AP Finetuning term: 0.0017190205398947
+AP Epoch [21/40], Test Accuracy: 90.00%
+AP_Epoch [22/40], AP Train Accuracy: 99.16%,  AP Old Loss: 0.02528059, AP New Loss: 0.04270369, AP Finetuning term: 0.0017205654876306653
+AP Epoch [22/40], Test Accuracy: 90.05%
+AP_Epoch [23/40], AP Train Accuracy: 99.05%,  AP Old Loss: 0.02837119, AP New Loss: 0.04575647, AP Finetuning term: 0.0017180838622152805
+AP Epoch [23/40], Test Accuracy: 89.86%
+AP_Epoch [24/40], AP Train Accuracy: 99.10%,  AP Old Loss: 0.02602856, AP New Loss: 0.04346304, AP Finetuning term: 0.0017196615226566792
+AP Epoch [24/40], Test Accuracy: 89.90%
+AP_Epoch [25/40], AP Train Accuracy: 99.10%,  AP Old Loss: 0.02647714, AP New Loss: 0.04387885, AP Finetuning term: 0.0017189262434840202
+AP Epoch [25/40], Test Accuracy: 90.09%
+AP_Epoch [26/40], AP Train Accuracy: 99.04%,  AP Old Loss: 0.02900914, AP New Loss: 0.04639826, AP Finetuning term: 0.0017174441600218415
+AP Epoch [26/40], Test Accuracy: 90.24%
+AP_Epoch [27/40], AP Train Accuracy: 99.12%,  AP Old Loss: 0.02592847, AP New Loss: 0.04333588, AP Finetuning term: 0.0017190679209306836
+AP Epoch [27/40], Test Accuracy: 90.12%
+AP_Epoch [28/40], AP Train Accuracy: 99.00%,  AP Old Loss: 0.02837150, AP New Loss: 0.04577496, AP Finetuning term: 0.0017153088701888919
+AP Epoch [28/40], Test Accuracy: 89.97%
+AP_Epoch [29/40], AP Train Accuracy: 99.15%,  AP Old Loss: 0.02545686, AP New Loss: 0.04287103, AP Finetuning term: 0.0017197041306644678
+AP Epoch [29/40], Test Accuracy: 90.32%
+AP_Epoch [30/40], AP Train Accuracy: 99.02%,  AP Old Loss: 0.02862633, AP New Loss: 0.04601924, AP Finetuning term: 0.001717559527605772
+AP Epoch [30/40], Test Accuracy: 90.07%
+AP_Epoch [31/40], AP Train Accuracy: 99.10%,  AP Old Loss: 0.02736861, AP New Loss: 0.04475768, AP Finetuning term: 0.0017193729290738702
+AP Epoch [31/40], Test Accuracy: 90.17%
+AP_Epoch [32/40], AP Train Accuracy: 99.16%,  AP Old Loss: 0.02528727, AP New Loss: 0.04270285, AP Finetuning term: 0.0017196262488141656
+AP Epoch [32/40], Test Accuracy: 89.80%
+AP_Epoch [33/40], AP Train Accuracy: 99.01%,  AP Old Loss: 0.02836164, AP New Loss: 0.04575262, AP Finetuning term: 0.0017174858367070556
+AP Epoch [33/40], Test Accuracy: 89.72%
+AP_Epoch [34/40], AP Train Accuracy: 99.08%,  AP Old Loss: 0.02623195, AP New Loss: 0.04364322, AP Finetuning term: 0.0017181525472551584
+AP Epoch [34/40], Test Accuracy: 89.86%
+AP_Epoch [35/40], AP Train Accuracy: 99.05%,  AP Old Loss: 0.02776025, AP New Loss: 0.04516203, AP Finetuning term: 0.001717935549095273
+AP Epoch [35/40], Test Accuracy: 90.17%
+AP_Epoch [36/40], AP Train Accuracy: 99.12%,  AP Old Loss: 0.02677932, AP New Loss: 0.04418188, AP Finetuning term: 0.0017182771116495132
+AP Epoch [36/40], Test Accuracy: 90.06%
+AP_Epoch [37/40], AP Train Accuracy: 99.06%,  AP Old Loss: 0.02695898, AP New Loss: 0.04438044, AP Finetuning term: 0.0017174948006868362
+AP Epoch [37/40], Test Accuracy: 89.46%
+AP_Epoch [38/40], AP Train Accuracy: 99.15%,  AP Old Loss: 0.02615875, AP New Loss: 0.04355673, AP Finetuning term: 0.0017213032115250826
+AP Epoch [38/40], Test Accuracy: 90.55%
+AP_Epoch [39/40], AP Train Accuracy: 99.08%,  AP Old Loss: 0.02606029, AP New Loss: 0.04310177, AP Finetuning term: 0.0016834605485200882
+AP Epoch [39/40], Test Accuracy: 89.86%
+AP_Epoch [40/40], AP Train Accuracy: 99.26%,  AP Old Loss: 0.02214200, AP New Loss: 0.03920516, AP Finetuning term: 0.0016873632557690144
+AP Epoch [40/40], Test Accuracy: 90.58%
+Iteration Completed
+
+
+Selected indices list: [[8], [13], [2], [2], [7], [1], [13], [13], [9], [27, 4], [8, 5], [1, 13], [18, 12], [27, 15], [6, 23], [16, 14], [22, 15], [12, 14], [0, 18, 53, 47], [1, 10, 54, 17], [16, 18, 46, 23], [16, 17, 51, 54], [40, 27, 13, 6], [30, 14, 54, 31], [19, 12, 54, 55], [24, 28, 5, 36], [40, 21, 13, 39]]
+Remaining indices list: [[0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13], [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13], [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], [0, 1, 2, 3, 4, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27], [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 48, 49, 50, 51, 52, 54, 55], [0, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 55], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50, 51, 52, 53, 54, 55], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 52, 53, 55], [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 55], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53], [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]]
+Epoch [1/40], Train Accuracy: 99.36%
+Pruning Iteration 3, Epoch [1/40], Old Loss: 0.01984556, New Loss: 0.00944418
+Regularization term: 4.1229939460754395, Decorrelation term: 13.52029037475586
+Epoch [1/40], Test Accuracy: 89.47%
+Epoch [2/40], Train Accuracy: 99.17%
+Pruning Iteration 3, Epoch [2/40], Old Loss: 0.02504980, New Loss: 0.01575100
+Regularization term: 4.064755439758301, Decorrelation term: 12.710565567016602
+Epoch [2/40], Test Accuracy: 89.69%
+Epoch [3/40], Train Accuracy: 99.18%
+Pruning Iteration 3, Epoch [3/40], Old Loss: 0.02472545, New Loss: 0.01551526
+Regularization term: 4.120494365692139, Decorrelation term: 14.896960258483887
+Epoch [3/40], Test Accuracy: 90.08%
+Epoch [4/40], Train Accuracy: 99.30%
+Pruning Iteration 3, Epoch [4/40], Old Loss: 0.02134839, New Loss: 0.01136030
+Regularization term: 4.08302116394043, Decorrelation term: 14.667705535888672
+Epoch [4/40], Test Accuracy: 89.59%
+Epoch [5/40], Train Accuracy: 99.39%
+Pruning Iteration 3, Epoch [5/40], Old Loss: 0.01815392, New Loss: 0.00771299
+Regularization term: 4.08867073059082, Decorrelation term: 13.656488418579102
+Epoch [5/40], Test Accuracy: 90.33%
+Epoch [6/40], Train Accuracy: 99.47%
+Pruning Iteration 3, Epoch [6/40], Old Loss: 0.01528544, New Loss: 0.00416564
+Regularization term: 4.241298675537109, Decorrelation term: 16.4660587310791
+Epoch [6/40], Test Accuracy: 89.42%
+Epoch [7/40], Train Accuracy: 99.43%
+Pruning Iteration 3, Epoch [7/40], Old Loss: 0.01734509, New Loss: 0.00800611
+Regularization term: 4.115622520446777, Decorrelation term: 13.484950065612793
+Epoch [7/40], Test Accuracy: 90.52%
+Epoch [8/40], Train Accuracy: 99.21%
+Pruning Iteration 3, Epoch [8/40], Old Loss: 0.02407132, New Loss: 0.01390243
+Regularization term: 4.092872142791748, Decorrelation term: 16.103979110717773
+Epoch [8/40], Test Accuracy: 90.12%
+Epoch [9/40], Train Accuracy: 99.42%
+Pruning Iteration 3, Epoch [9/40], Old Loss: 0.01819276, New Loss: 0.00882529
+Regularization term: 4.1033148765563965, Decorrelation term: 13.47004508972168
+Epoch [9/40], Test Accuracy: 89.85%
+Epoch [10/40], Train Accuracy: 99.38%
+Pruning Iteration 3, Epoch [10/40], Old Loss: 0.01832585, New Loss: 0.00914203
+Regularization term: 4.069791793823242, Decorrelation term: 11.393306732177734
+Epoch [10/40], Test Accuracy: 89.77%
+Epoch [11/40], Train Accuracy: 99.27%
+Pruning Iteration 3, Epoch [11/40], Old Loss: 0.02161049, New Loss: 0.01143890
+Regularization term: 4.098876476287842, Decorrelation term: 15.043877601623535
+Epoch [11/40], Test Accuracy: 89.79%
+Epoch [12/40], Train Accuracy: 99.34%
+Pruning Iteration 3, Epoch [12/40], Old Loss: 0.01880401, New Loss: 0.00894313
+Regularization term: 4.0563883781433105, Decorrelation term: 14.662622451782227
+Epoch [12/40], Test Accuracy: 89.95%
+Epoch [13/40], Train Accuracy: 99.33%
+Pruning Iteration 3, Epoch [13/40], Old Loss: 0.01915256, New Loss: 0.00918726
+Regularization term: 4.100017070770264, Decorrelation term: 15.677787780761719
+Epoch [13/40], Test Accuracy: 90.39%
+Epoch [14/40], Train Accuracy: 99.39%
+Pruning Iteration 3, Epoch [14/40], Old Loss: 0.01851502, New Loss: 0.00835387
+Regularization term: 4.070158958435059, Decorrelation term: 15.202693939208984
+Epoch [14/40], Test Accuracy: 89.62%
+Epoch [15/40], Train Accuracy: 99.31%
+Pruning Iteration 3, Epoch [15/40], Old Loss: 0.01962583, New Loss: 0.01006966
+Regularization term: 4.0858049392700195, Decorrelation term: 13.021451950073242
+Epoch [15/40], Test Accuracy: 89.74%
+Epoch [16/40], Train Accuracy: 99.27%
+Pruning Iteration 3, Epoch [16/40], Old Loss: 0.02205280, New Loss: 0.01248187
+Regularization term: 3.9877827167510986, Decorrelation term: 10.693490028381348
+Epoch [16/40], Test Accuracy: 90.44%
+Epoch [17/40], Train Accuracy: 99.16%
+Pruning Iteration 3, Epoch [17/40], Old Loss: 0.02498837, New Loss: 0.01616550
+Regularization term: 4.180057525634766, Decorrelation term: 12.528255462646484
+Epoch [17/40], Test Accuracy: 90.35%
+Epoch [18/40], Train Accuracy: 99.33%
+Pruning Iteration 3, Epoch [18/40], Old Loss: 0.02049300, New Loss: 0.01009222
+Regularization term: 4.037722110748291, Decorrelation term: 13.477655410766602
+Epoch [18/40], Test Accuracy: 90.22%
+Epoch [19/40], Train Accuracy: 99.24%
+Pruning Iteration 3, Epoch [19/40], Old Loss: 0.02250734, New Loss: 0.01322938
+Regularization term: 4.11852502822876, Decorrelation term: 13.784239768981934
+Epoch [19/40], Test Accuracy: 90.17%
+Epoch [20/40], Train Accuracy: 99.15%
+Pruning Iteration 3, Epoch [20/40], Old Loss: 0.02422765, New Loss: 0.01469318
+Regularization term: 4.200839042663574, Decorrelation term: 12.42249584197998
+Epoch [20/40], Test Accuracy: 89.90%
+Epoch [21/40], Train Accuracy: 99.34%
+Pruning Iteration 3, Epoch [21/40], Old Loss: 0.02061829, New Loss: 0.01045052
+Regularization term: 4.061372756958008, Decorrelation term: 14.0665283203125
+Epoch [21/40], Test Accuracy: 90.22%
+Epoch [22/40], Train Accuracy: 99.25%
+Pruning Iteration 3, Epoch [22/40], Old Loss: 0.02299993, New Loss: 0.01314161
+Regularization term: 4.0120368003845215, Decorrelation term: 13.555317878723145
+Epoch [22/40], Test Accuracy: 90.26%
+Epoch [23/40], Train Accuracy: 99.25%
+Pruning Iteration 3, Epoch [23/40], Old Loss: 0.02181310, New Loss: 0.01124265
+Regularization term: 4.092779636383057, Decorrelation term: 15.003503799438477
+Epoch [23/40], Test Accuracy: 90.23%
+Epoch [24/40], Train Accuracy: 99.34%
+Pruning Iteration 3, Epoch [24/40], Old Loss: 0.01916277, New Loss: 0.00987605
+Regularization term: 4.020051002502441, Decorrelation term: 13.42072582244873
+Epoch [24/40], Test Accuracy: 90.12%
+Epoch [25/40], Train Accuracy: 99.24%
+Pruning Iteration 3, Epoch [25/40], Old Loss: 0.02196557, New Loss: 0.01253117
+Regularization term: 4.075898170471191, Decorrelation term: 12.787293434143066
+Epoch [25/40], Test Accuracy: 89.43%
+Epoch [26/40], Train Accuracy: 99.37%
+Pruning Iteration 3, Epoch [26/40], Old Loss: 0.01954482, New Loss: 0.00960974
+Regularization term: 4.010279178619385, Decorrelation term: 14.90583610534668
+Epoch [26/40], Test Accuracy: 89.83%
+Epoch [27/40], Train Accuracy: 99.27%
+Pruning Iteration 3, Epoch [27/40], Old Loss: 0.02153612, New Loss: 0.01081905
+Regularization term: 4.055561065673828, Decorrelation term: 16.231889724731445
+Epoch [27/40], Test Accuracy: 89.41%
+Epoch [28/40], Train Accuracy: 99.22%
+Pruning Iteration 3, Epoch [28/40], Old Loss: 0.02308719, New Loss: 0.01403580
+Regularization term: 4.14438009262085, Decorrelation term: 13.638482093811035
+Epoch [28/40], Test Accuracy: 89.95%
+Epoch [29/40], Train Accuracy: 99.17%
+Pruning Iteration 3, Epoch [29/40], Old Loss: 0.02325313, New Loss: 0.01333134
+Regularization term: 4.043898582458496, Decorrelation term: 14.387773513793945
+Epoch [29/40], Test Accuracy: 89.99%
+Epoch [30/40], Train Accuracy: 99.25%
+Pruning Iteration 3, Epoch [30/40], Old Loss: 0.02121657, New Loss: 0.01092212
+Regularization term: 4.131720066070557, Decorrelation term: 16.33798599243164
+Epoch [30/40], Test Accuracy: 90.16%
+Epoch [31/40], Train Accuracy: 99.25%
+Pruning Iteration 3, Epoch [31/40], Old Loss: 0.02169327, New Loss: 0.01186079
+Regularization term: 4.1170220375061035, Decorrelation term: 14.401662826538086
+Epoch [31/40], Test Accuracy: 90.51%
+Epoch [32/40], Train Accuracy: 99.39%
+Pruning Iteration 3, Epoch [32/40], Old Loss: 0.01906393, New Loss: 0.00927382
+Regularization term: 4.169428825378418, Decorrelation term: 16.018102645874023
+Epoch [32/40], Test Accuracy: 90.42%
+Epoch [33/40], Train Accuracy: 99.28%
+Pruning Iteration 3, Epoch [33/40], Old Loss: 0.02219476, New Loss: 0.01264906
+Regularization term: 4.110699653625488, Decorrelation term: 12.761975288391113
+Epoch [33/40], Test Accuracy: 90.11%
+Epoch [34/40], Train Accuracy: 99.30%
+Pruning Iteration 3, Epoch [34/40], Old Loss: 0.02035409, New Loss: 0.00994167
+Regularization term: 4.080742835998535, Decorrelation term: 15.770790100097656
+Epoch [34/40], Test Accuracy: 90.52%
+Epoch [35/40], Train Accuracy: 99.31%
+Pruning Iteration 3, Epoch [35/40], Old Loss: 0.02052261, New Loss: 0.01013167
+Regularization term: 4.1888017654418945, Decorrelation term: 14.090375900268555
+Epoch [35/40], Test Accuracy: 90.12%
+Epoch [36/40], Train Accuracy: 99.27%
+Pruning Iteration 3, Epoch [36/40], Old Loss: 0.02172491, New Loss: 0.01232239
+Regularization term: 4.122990608215332, Decorrelation term: 15.310929298400879
+Epoch [36/40], Test Accuracy: 90.06%
+Epoch [37/40], Train Accuracy: 99.19%
+Pruning Iteration 3, Epoch [37/40], Old Loss: 0.02317386, New Loss: 0.01366413
+Regularization term: 4.075913429260254, Decorrelation term: 14.186396598815918
+Epoch [37/40], Test Accuracy: 90.20%
+Epoch [38/40], Train Accuracy: 99.32%
+Pruning Iteration 3, Epoch [38/40], Old Loss: 0.01916553, New Loss: 0.00932331
+Regularization term: 4.180820941925049, Decorrelation term: 14.175387382507324
+Epoch [38/40], Test Accuracy: 90.49%
+Epoch [39/40], Train Accuracy: 99.33%
+Pruning Iteration 3, Epoch [39/40], Old Loss: 0.02025652, New Loss: 0.01051768
+Regularization term: 4.0960540771484375, Decorrelation term: 14.354286193847656
+Epoch [39/40], Test Accuracy: 90.13%
+Epoch [40/40], Train Accuracy: 99.40%
+Pruning Iteration 3, Epoch [40/40], Old Loss: 0.01780681, New Loss: 0.00945642
+Regularization term: 4.140913009643555, Decorrelation term: 12.573673248291016
+Epoch [40/40], Test Accuracy: 90.08%
+Stage 1 - Remaining Filters: 14
+Stage 2 - Remaining Filters: 28
+Stage 3 - Remaining Filters: 56
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_normalization() for <class 'torch.nn.modules.batchnorm.BatchNorm2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.activation.ReLU'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[INFO] Register count_adap_avgpool() for <class 'torch.nn.modules.pooling.AdaptiveAvgPool2d'>.
+[INFO] Register count_linear() for <class 'torch.nn.modules.linear.Linear'>.
+Total FLOPs: 111860416.0, Total Params: 746782.0
+Starting AP Training
+AP_Epoch [1/40], AP Train Accuracy: 99.09%,  AP Old Loss: 0.02692217, AP New Loss: 0.04276451, AP Finetuning term: 0.0015709103317931294
+AP Epoch [1/40], Test Accuracy: 90.72%
+AP_Epoch [2/40], AP Train Accuracy: 99.39%,  AP Old Loss: 0.01804005, AP New Loss: 0.03365636, AP Finetuning term: 0.001548167783766985
+AP Epoch [2/40], Test Accuracy: 90.16%
+AP_Epoch [3/40], AP Train Accuracy: 99.38%,  AP Old Loss: 0.01795308, AP New Loss: 0.03357175, AP Finetuning term: 0.0015489136567339301
+AP Epoch [3/40], Test Accuracy: 90.10%
+AP_Epoch [4/40], AP Train Accuracy: 99.41%,  AP Old Loss: 0.01735212, AP New Loss: 0.03297433, AP Finetuning term: 0.0015490037621930242
+AP Epoch [4/40], Test Accuracy: 90.06%
+AP_Epoch [5/40], AP Train Accuracy: 99.34%,  AP Old Loss: 0.01957354, AP New Loss: 0.03518868, AP Finetuning term: 0.0015470439102500677
+AP Epoch [5/40], Test Accuracy: 89.36%
+AP_Epoch [6/40], AP Train Accuracy: 99.28%,  AP Old Loss: 0.02063245, AP New Loss: 0.03623631, AP Finetuning term: 0.0015471132937818766
+AP Epoch [6/40], Test Accuracy: 90.07%
+AP_Epoch [7/40], AP Train Accuracy: 99.23%,  AP Old Loss: 0.02184188, AP New Loss: 0.03744627, AP Finetuning term: 0.0015454402891919017
+AP Epoch [7/40], Test Accuracy: 89.63%
+AP_Epoch [8/40], AP Train Accuracy: 99.41%,  AP Old Loss: 0.01745890, AP New Loss: 0.03307578, AP Finetuning term: 0.0015496864216402173
+AP Epoch [8/40], Test Accuracy: 90.28%
+AP_Epoch [9/40], AP Train Accuracy: 99.45%,  AP Old Loss: 0.01734430, AP New Loss: 0.03296625, AP Finetuning term: 0.001549816457554698
+AP Epoch [9/40], Test Accuracy: 89.62%
+AP_Epoch [10/40], AP Train Accuracy: 99.34%,  AP Old Loss: 0.01975178, AP New Loss: 0.03535823, AP Finetuning term: 0.0015474113170057535
+AP Epoch [10/40], Test Accuracy: 90.07%
+AP_Epoch [11/40], AP Train Accuracy: 99.33%,  AP Old Loss: 0.02060718, AP New Loss: 0.03622141, AP Finetuning term: 0.0015450328355655074
+AP Epoch [11/40], Test Accuracy: 89.40%
+AP_Epoch [12/40], AP Train Accuracy: 99.35%,  AP Old Loss: 0.01908032, AP New Loss: 0.03468979, AP Finetuning term: 0.001548265339806676
+AP Epoch [12/40], Test Accuracy: 90.28%
+AP_Epoch [13/40], AP Train Accuracy: 99.43%,  AP Old Loss: 0.01741687, AP New Loss: 0.03303944, AP Finetuning term: 0.0015485998010262847
+AP Epoch [13/40], Test Accuracy: 89.84%
+AP_Epoch [14/40], AP Train Accuracy: 99.45%,  AP Old Loss: 0.01676257, AP New Loss: 0.03239119, AP Finetuning term: 0.0015488264616578817
+AP Epoch [14/40], Test Accuracy: 89.87%
+AP_Epoch [15/40], AP Train Accuracy: 99.41%,  AP Old Loss: 0.01931362, AP New Loss: 0.03493244, AP Finetuning term: 0.001547567080706358
+AP Epoch [15/40], Test Accuracy: 90.12%
+AP_Epoch [16/40], AP Train Accuracy: 99.40%,  AP Old Loss: 0.01790474, AP New Loss: 0.03352278, AP Finetuning term: 0.001548968255519867
+AP Epoch [16/40], Test Accuracy: 89.78%
+AP_Epoch [17/40], AP Train Accuracy: 99.36%,  AP Old Loss: 0.01906198, AP New Loss: 0.03468112, AP Finetuning term: 0.0015478534623980522
+AP Epoch [17/40], Test Accuracy: 89.60%
+AP_Epoch [18/40], AP Train Accuracy: 99.32%,  AP Old Loss: 0.01973788, AP New Loss: 0.03533795, AP Finetuning term: 0.0015477575361728668
+AP Epoch [18/40], Test Accuracy: 89.74%
+AP_Epoch [19/40], AP Train Accuracy: 99.43%,  AP Old Loss: 0.01735380, AP New Loss: 0.03297855, AP Finetuning term: 0.0015506923664361238
+AP Epoch [19/40], Test Accuracy: 90.06%
+AP_Epoch [20/40], AP Train Accuracy: 99.25%,  AP Old Loss: 0.02111282, AP New Loss: 0.03672181, AP Finetuning term: 0.0015450888313353062
+AP Epoch [20/40], Test Accuracy: 89.61%
+AP_Epoch [21/40], AP Train Accuracy: 99.35%,  AP Old Loss: 0.01952137, AP New Loss: 0.03513624, AP Finetuning term: 0.001547134597785771
+AP Epoch [21/40], Test Accuracy: 89.73%
+AP_Epoch [22/40], AP Train Accuracy: 99.43%,  AP Old Loss: 0.01700000, AP New Loss: 0.03262173, AP Finetuning term: 0.0015494071412831545
+AP Epoch [22/40], Test Accuracy: 89.62%
+AP_Epoch [23/40], AP Train Accuracy: 99.45%,  AP Old Loss: 0.01609949, AP New Loss: 0.03172793, AP Finetuning term: 0.0015505912015214562
+AP Epoch [23/40], Test Accuracy: 89.35%
+AP_Epoch [24/40], AP Train Accuracy: 99.38%,  AP Old Loss: 0.01817698, AP New Loss: 0.03378840, AP Finetuning term: 0.0015491951489821076
+AP Epoch [24/40], Test Accuracy: 89.90%
+AP_Epoch [25/40], AP Train Accuracy: 99.50%,  AP Old Loss: 0.01512852, AP New Loss: 0.03075447, AP Finetuning term: 0.0015519707230851054
+AP Epoch [25/40], Test Accuracy: 90.18%
+AP_Epoch [26/40], AP Train Accuracy: 99.43%,  AP Old Loss: 0.01744380, AP New Loss: 0.03306024, AP Finetuning term: 0.0015493922401219606
+AP Epoch [26/40], Test Accuracy: 90.41%
+AP_Epoch [27/40], AP Train Accuracy: 99.39%,  AP Old Loss: 0.01866231, AP New Loss: 0.03428004, AP Finetuning term: 0.0015476843109354377
+AP Epoch [27/40], Test Accuracy: 90.33%
+AP_Epoch [28/40], AP Train Accuracy: 99.33%,  AP Old Loss: 0.01975967, AP New Loss: 0.03536640, AP Finetuning term: 0.001547354506328702
+AP Epoch [28/40], Test Accuracy: 90.36%
+AP_Epoch [29/40], AP Train Accuracy: 99.34%,  AP Old Loss: 0.01915053, AP New Loss: 0.03475598, AP Finetuning term: 0.001547955209389329
+AP Epoch [29/40], Test Accuracy: 90.13%
+AP_Epoch [30/40], AP Train Accuracy: 99.40%,  AP Old Loss: 0.01804367, AP New Loss: 0.03365903, AP Finetuning term: 0.0015491596423089504
+AP Epoch [30/40], Test Accuracy: 89.95%
+AP_Epoch [31/40], AP Train Accuracy: 99.37%,  AP Old Loss: 0.01851070, AP New Loss: 0.03412534, AP Finetuning term: 0.0015482277376577258
+AP Epoch [31/40], Test Accuracy: 90.22%
+AP_Epoch [32/40], AP Train Accuracy: 99.29%,  AP Old Loss: 0.02147595, AP New Loss: 0.03707703, AP Finetuning term: 0.001545437378808856
+AP Epoch [32/40], Test Accuracy: 90.15%
+AP_Epoch [33/40], AP Train Accuracy: 99.24%,  AP Old Loss: 0.02179123, AP New Loss: 0.03739464, AP Finetuning term: 0.0015461811563000083
+AP Epoch [33/40], Test Accuracy: 90.08%
+AP_Epoch [34/40], AP Train Accuracy: 99.44%,  AP Old Loss: 0.01634381, AP New Loss: 0.03196513, AP Finetuning term: 0.0015497588319703937
+AP Epoch [34/40], Test Accuracy: 89.85%
+AP_Epoch [35/40], AP Train Accuracy: 99.16%,  AP Old Loss: 0.02440761, AP New Loss: 0.04000728, AP Finetuning term: 0.0015444052405655384
+AP Epoch [35/40], Test Accuracy: 89.84%
+AP_Epoch [36/40], AP Train Accuracy: 99.36%,  AP Old Loss: 0.01979045, AP New Loss: 0.03540236, AP Finetuning term: 0.0015475153923034668
+AP Epoch [36/40], Test Accuracy: 89.56%
+AP_Epoch [37/40], AP Train Accuracy: 99.36%,  AP Old Loss: 0.01888807, AP New Loss: 0.03449113, AP Finetuning term: 0.0015488560311496258
+AP Epoch [37/40], Test Accuracy: 90.00%
+AP_Epoch [38/40], AP Train Accuracy: 99.18%,  AP Old Loss: 0.02423731, AP New Loss: 0.03983557, AP Finetuning term: 0.0015433172229677439
+AP Epoch [38/40], Test Accuracy: 89.65%
+AP_Epoch [39/40], AP Train Accuracy: 99.34%,  AP Old Loss: 0.01972537, AP New Loss: 0.03533770, AP Finetuning term: 0.001546973828226328
+AP Epoch [39/40], Test Accuracy: 90.39%
+AP_Epoch [40/40], AP Train Accuracy: 99.42%,  AP Old Loss: 0.01806525, AP New Loss: 0.03368022, AP Finetuning term: 0.0015486248303204775
+AP Epoch [40/40], Test Accuracy: 89.80%
+Iteration Completed
+
+
+Selected indices list: [[6], [11], [12], [12], [1], [12], [5], [5], [0], [15, 7], [3, 21], [3, 14], [1, 22], [16, 15], [4, 20], [16, 6], [9, 7], [19, 22], [48, 27, 12, 14], [8, 41, 19, 45], [1, 37, 44, 45], [9, 50, 35, 12], [19, 5, 46, 47], [51, 43, 4, 13], [2, 42, 50, 29], [40, 33, 15, 7], [33, 21, 46, 23]]
+Remaining indices list: [[0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12], [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25], [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 21, 22, 23, 24, 25], [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25], [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25], [0, 1, 2, 3, 4, 5, 6, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 23, 24, 25], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 49, 50, 51], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 42, 43, 44, 46, 47, 48, 49, 50, 51], [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 46, 47, 48, 49, 50, 51], [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 51], [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 48, 49, 50, 51], [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 50], [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 43, 44, 45, 46, 47, 48, 49, 51], [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50, 51]]
+Epoch [1/40], Train Accuracy: 99.35%
+Pruning Iteration 4, Epoch [1/40], Old Loss: 0.02018913, New Loss: 0.00673499
+Regularization term: 4.588231086730957, Decorrelation term: 21.015443801879883
+Epoch [1/40], Test Accuracy: 89.63%
+Epoch [2/40], Train Accuracy: 99.26%
+Pruning Iteration 4, Epoch [2/40], Old Loss: 0.02156219, New Loss: 0.00731741
+Regularization term: 4.57896089553833, Decorrelation term: 20.376237869262695
+Epoch [2/40], Test Accuracy: 90.20%
+Epoch [3/40], Train Accuracy: 99.54%
+Pruning Iteration 4, Epoch [3/40], Old Loss: 0.01458137, New Loss: -0.00016848
+Regularization term: 4.565934658050537, Decorrelation term: 18.644859313964844
+Epoch [3/40], Test Accuracy: 89.90%
+Epoch [4/40], Train Accuracy: 99.45%
+Pruning Iteration 4, Epoch [4/40], Old Loss: 0.01635533, New Loss: 0.00091970
+Regularization term: 4.540307998657227, Decorrelation term: 22.236330032348633
+Epoch [4/40], Test Accuracy: 90.59%
+Epoch [5/40], Train Accuracy: 99.48%
+Pruning Iteration 4, Epoch [5/40], Old Loss: 0.01483109, New Loss: -0.00150432
+Regularization term: 4.533788681030273, Decorrelation term: 20.364858627319336
+Epoch [5/40], Test Accuracy: 90.38%
+Epoch [6/40], Train Accuracy: 99.38%
+Pruning Iteration 4, Epoch [6/40], Old Loss: 0.01770507, New Loss: 0.00130958
+Regularization term: 4.541347026824951, Decorrelation term: 19.36083221435547
+Epoch [6/40], Test Accuracy: 89.59%
+Epoch [7/40], Train Accuracy: 99.58%
+Pruning Iteration 4, Epoch [7/40], Old Loss: 0.01275991, New Loss: -0.00332522
+Regularization term: 4.5431365966796875, Decorrelation term: 20.178485870361328
+Epoch [7/40], Test Accuracy: 90.16%
+Epoch [8/40], Train Accuracy: 99.40%
+Pruning Iteration 4, Epoch [8/40], Old Loss: 0.01708317, New Loss: 0.00057123
+Regularization term: 4.529877185821533, Decorrelation term: 21.381139755249023
+Epoch [8/40], Test Accuracy: 90.40%
+Epoch [9/40], Train Accuracy: 99.39%
+Pruning Iteration 4, Epoch [9/40], Old Loss: 0.01792531, New Loss: 0.00100111
+Regularization term: 4.4918599128723145, Decorrelation term: 21.092220306396484
+Epoch [9/40], Test Accuracy: 89.90%
+Epoch [10/40], Train Accuracy: 99.59%
+Pruning Iteration 4, Epoch [10/40], Old Loss: 0.01316044, New Loss: -0.00391323
+Regularization term: 4.593689918518066, Decorrelation term: 22.089651107788086
+Epoch [10/40], Test Accuracy: 89.50%
+Epoch [11/40], Train Accuracy: 99.41%
+Pruning Iteration 4, Epoch [11/40], Old Loss: 0.01724922, New Loss: 0.00153145
+Regularization term: 4.554194450378418, Decorrelation term: 19.49339485168457
+Epoch [11/40], Test Accuracy: 90.17%
+Epoch [12/40], Train Accuracy: 99.53%
+Pruning Iteration 4, Epoch [12/40], Old Loss: 0.01418277, New Loss: -0.00169868
+Regularization term: 4.4789719581604, Decorrelation term: 18.615243911743164
+Epoch [12/40], Test Accuracy: 89.36%
+Epoch [13/40], Train Accuracy: 99.38%
+Pruning Iteration 4, Epoch [13/40], Old Loss: 0.01876200, New Loss: 0.00287175
+Regularization term: 4.52536153793335, Decorrelation term: 20.14401626586914
+Epoch [13/40], Test Accuracy: 90.06%
+Epoch [14/40], Train Accuracy: 99.52%
+Pruning Iteration 4, Epoch [14/40], Old Loss: 0.01499123, New Loss: -0.00235926
+Regularization term: 4.580844879150391, Decorrelation term: 22.208070755004883
+Epoch [14/40], Test Accuracy: 90.40%
+Epoch [15/40], Train Accuracy: 99.43%
+Pruning Iteration 4, Epoch [15/40], Old Loss: 0.01705007, New Loss: 0.00055211
+Regularization term: 4.446997165679932, Decorrelation term: 18.35389518737793
+Epoch [15/40], Test Accuracy: 89.76%
+Epoch [16/40], Train Accuracy: 99.29%
+Pruning Iteration 4, Epoch [16/40], Old Loss: 0.01962735, New Loss: 0.00237992
+Regularization term: 4.53853178024292, Decorrelation term: 22.190921783447266
+Epoch [16/40], Test Accuracy: 89.63%
+Epoch [17/40], Train Accuracy: 99.41%
+Pruning Iteration 4, Epoch [17/40], Old Loss: 0.01794321, New Loss: 0.00186098
+Regularization term: 4.561666965484619, Decorrelation term: 20.245237350463867
+Epoch [17/40], Test Accuracy: 89.93%
+Epoch [18/40], Train Accuracy: 99.49%
+Pruning Iteration 4, Epoch [18/40], Old Loss: 0.01501305, New Loss: 0.00002563
+Regularization term: 4.472496032714844, Decorrelation term: 18.716421127319336
+Epoch [18/40], Test Accuracy: 90.58%
+Epoch [19/40], Train Accuracy: 99.42%
+Pruning Iteration 4, Epoch [19/40], Old Loss: 0.01720961, New Loss: 0.00022303
+Regularization term: 4.5717244148254395, Decorrelation term: 20.207141876220703
+Epoch [19/40], Test Accuracy: 90.17%
+Epoch [20/40], Train Accuracy: 99.58%
+Pruning Iteration 4, Epoch [20/40], Old Loss: 0.01353386, New Loss: -0.00297226
+Regularization term: 4.493434906005859, Decorrelation term: 17.158870697021484
+Epoch [20/40], Test Accuracy: 90.04%
+Epoch [21/40], Train Accuracy: 99.41%
+Pruning Iteration 4, Epoch [21/40], Old Loss: 0.01740714, New Loss: 0.00074650
+Regularization term: 4.442438125610352, Decorrelation term: 20.72978401184082
+Epoch [21/40], Test Accuracy: 90.10%
+Epoch [22/40], Train Accuracy: 99.37%
+Pruning Iteration 4, Epoch [22/40], Old Loss: 0.01849433, New Loss: 0.00188854
+Regularization term: 4.553752422332764, Decorrelation term: 19.62014389038086
+Epoch [22/40], Test Accuracy: 90.29%
+Epoch [23/40], Train Accuracy: 99.53%
+Pruning Iteration 4, Epoch [23/40], Old Loss: 0.01357062, New Loss: -0.00179461
+Regularization term: 4.646949768066406, Decorrelation term: 18.417539596557617
+Epoch [23/40], Test Accuracy: 90.02%
+Epoch [24/40], Train Accuracy: 99.42%
+Pruning Iteration 4, Epoch [24/40], Old Loss: 0.01661620, New Loss: -0.00054672
+Regularization term: 4.530489444732666, Decorrelation term: 22.075740814208984
+Epoch [24/40], Test Accuracy: 89.83%
+Epoch [25/40], Train Accuracy: 99.44%
+Pruning Iteration 4, Epoch [25/40], Old Loss: 0.01675469, New Loss: 0.00034414
+Regularization term: 4.546867370605469, Decorrelation term: 21.220579147338867
+Epoch [25/40], Test Accuracy: 89.75%
+Epoch [26/40], Train Accuracy: 99.42%
+Pruning Iteration 4, Epoch [26/40], Old Loss: 0.01685680, New Loss: -0.00006323
+Regularization term: 4.531922817230225, Decorrelation term: 22.17726707458496
+Epoch [26/40], Test Accuracy: 90.39%
+Epoch [27/40], Train Accuracy: 99.56%
+Pruning Iteration 4, Epoch [27/40], Old Loss: 0.01305883, New Loss: -0.00399547
+Regularization term: 4.578827857971191, Decorrelation term: 18.864837646484375
+Epoch [27/40], Test Accuracy: 90.28%
+Epoch [28/40], Train Accuracy: 99.54%
+Pruning Iteration 4, Epoch [28/40], Old Loss: 0.01340148, New Loss: -0.00270103
+Regularization term: 4.5936665534973145, Decorrelation term: 20.32176399230957
+Epoch [28/40], Test Accuracy: 90.05%
+Epoch [29/40], Train Accuracy: 99.48%
+Pruning Iteration 4, Epoch [29/40], Old Loss: 0.01564042, New Loss: -0.00037126
+Regularization term: 4.514427185058594, Decorrelation term: 20.123943328857422
+Epoch [29/40], Test Accuracy: 90.04%
+Epoch [30/40], Train Accuracy: 99.37%
+Pruning Iteration 4, Epoch [30/40], Old Loss: 0.01801967, New Loss: 0.00094962
+Regularization term: 4.462151050567627, Decorrelation term: 22.042308807373047
+Epoch [30/40], Test Accuracy: 89.80%
+Epoch [31/40], Train Accuracy: 99.48%
+Pruning Iteration 4, Epoch [31/40], Old Loss: 0.01521885, New Loss: -0.00149259
+Regularization term: 4.460375785827637, Decorrelation term: 22.042261123657227
+Epoch [31/40], Test Accuracy: 90.15%
+Epoch [32/40], Train Accuracy: 99.41%
+Pruning Iteration 4, Epoch [32/40], Old Loss: 0.01756239, New Loss: 0.00070754
+Regularization term: 4.593222141265869, Decorrelation term: 19.502174377441406
+Epoch [32/40], Test Accuracy: 90.01%
+Epoch [33/40], Train Accuracy: 99.43%
+Pruning Iteration 4, Epoch [33/40], Old Loss: 0.01689143, New Loss: 0.00074686
+Regularization term: 4.532701015472412, Decorrelation term: 20.000558853149414
+Epoch [33/40], Test Accuracy: 90.25%
+Epoch [34/40], Train Accuracy: 99.45%
+Pruning Iteration 4, Epoch [34/40], Old Loss: 0.01604085, New Loss: -0.00084821
+Regularization term: 4.4916510581970215, Decorrelation term: 19.448278427124023
+Epoch [34/40], Test Accuracy: 89.91%
+Epoch [35/40], Train Accuracy: 99.38%
+Pruning Iteration 4, Epoch [35/40], Old Loss: 0.01780833, New Loss: 0.00081803
+Regularization term: 4.640029430389404, Decorrelation term: 20.483654022216797
+Epoch [35/40], Test Accuracy: 89.93%
+Epoch [36/40], Train Accuracy: 99.58%
+Pruning Iteration 4, Epoch [36/40], Old Loss: 0.01268577, New Loss: -0.00380752
+Regularization term: 4.578559875488281, Decorrelation term: 20.01177406311035
+Epoch [36/40], Test Accuracy: 89.62%
+Epoch [37/40], Train Accuracy: 99.32%
+Pruning Iteration 4, Epoch [37/40], Old Loss: 0.01963888, New Loss: 0.00337581
+Regularization term: 4.52680778503418, Decorrelation term: 19.47388458251953
+Epoch [37/40], Test Accuracy: 89.64%
+Epoch [38/40], Train Accuracy: 99.43%
+Pruning Iteration 4, Epoch [38/40], Old Loss: 0.01687775, New Loss: -0.00084590
+Regularization term: 4.475172519683838, Decorrelation term: 21.216411590576172
+Epoch [38/40], Test Accuracy: 89.87%
+Epoch [39/40], Train Accuracy: 99.35%
+Pruning Iteration 4, Epoch [39/40], Old Loss: 0.01863807, New Loss: 0.00250544
+Regularization term: 4.494691371917725, Decorrelation term: 18.346853256225586
+Epoch [39/40], Test Accuracy: 90.20%
+Epoch [40/40], Train Accuracy: 99.41%
+Pruning Iteration 4, Epoch [40/40], Old Loss: 0.01750458, New Loss: 0.00144955
+Regularization term: 4.463977336883545, Decorrelation term: 20.595359802246094
+Epoch [40/40], Test Accuracy: 90.04%
+Stage 1 - Remaining Filters: 13
+Stage 2 - Remaining Filters: 26
+Stage 3 - Remaining Filters: 52
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_normalization() for <class 'torch.nn.modules.batchnorm.BatchNorm2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.activation.ReLU'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[INFO] Register count_adap_avgpool() for <class 'torch.nn.modules.pooling.AdaptiveAvgPool2d'>.
+[INFO] Register count_linear() for <class 'torch.nn.modules.linear.Linear'>.
+Total FLOPs: 103980736.0, Total Params: 693664.0
+Starting AP Training
+AP_Epoch [1/40], AP Train Accuracy: 99.15%,  AP Old Loss: 0.02533135, AP New Loss: 0.04082940, AP Finetuning term: 0.0015375562943518162
+AP Epoch [1/40], Test Accuracy: 89.67%
+AP_Epoch [2/40], AP Train Accuracy: 99.45%,  AP Old Loss: 0.01826753, AP New Loss: 0.03355489, AP Finetuning term: 0.0015185544034466147
+AP Epoch [2/40], Test Accuracy: 89.51%
+AP_Epoch [3/40], AP Train Accuracy: 99.39%,  AP Old Loss: 0.01837582, AP New Loss: 0.03365507, AP Finetuning term: 0.0015181679045781493
+AP Epoch [3/40], Test Accuracy: 90.38%
+AP_Epoch [4/40], AP Train Accuracy: 99.49%,  AP Old Loss: 0.01565584, AP New Loss: 0.03077015, AP Finetuning term: 0.0014993770746514201
+AP Epoch [4/40], Test Accuracy: 89.36%
+AP_Epoch [5/40], AP Train Accuracy: 99.37%,  AP Old Loss: 0.01816753, AP New Loss: 0.03326518, AP Finetuning term: 0.0014957301318645477
+AP Epoch [5/40], Test Accuracy: 89.41%
+AP_Epoch [6/40], AP Train Accuracy: 99.60%,  AP Old Loss: 0.01295170, AP New Loss: 0.02807290, AP Finetuning term: 0.0015012006042525172
+AP Epoch [6/40], Test Accuracy: 89.70%
+AP_Epoch [7/40], AP Train Accuracy: 99.50%,  AP Old Loss: 0.01527131, AP New Loss: 0.03037777, AP Finetuning term: 0.0014987180475145578
+AP Epoch [7/40], Test Accuracy: 89.30%
+AP_Epoch [8/40], AP Train Accuracy: 99.63%,  AP Old Loss: 0.01220979, AP New Loss: 0.02732623, AP Finetuning term: 0.0015036006225273013
+AP Epoch [8/40], Test Accuracy: 89.99%
+AP_Epoch [9/40], AP Train Accuracy: 99.36%,  AP Old Loss: 0.01766700, AP New Loss: 0.03275894, AP Finetuning term: 0.0014966204762458801
+AP Epoch [9/40], Test Accuracy: 89.57%
+AP_Epoch [10/40], AP Train Accuracy: 99.48%,  AP Old Loss: 0.01533882, AP New Loss: 0.03044691, AP Finetuning term: 0.0015000858111307025
+AP Epoch [10/40], Test Accuracy: 89.50%
+AP_Epoch [11/40], AP Train Accuracy: 99.41%,  AP Old Loss: 0.01847173, AP New Loss: 0.03356474, AP Finetuning term: 0.001496771932579577
+AP Epoch [11/40], Test Accuracy: 89.73%
+AP_Epoch [12/40], AP Train Accuracy: 99.41%,  AP Old Loss: 0.01744750, AP New Loss: 0.03254291, AP Finetuning term: 0.0014983579749241471
+AP Epoch [12/40], Test Accuracy: 89.59%
+AP_Epoch [13/40], AP Train Accuracy: 99.55%,  AP Old Loss: 0.01400094, AP New Loss: 0.02911523, AP Finetuning term: 0.0015014869859442115
+AP Epoch [13/40], Test Accuracy: 89.57%
+AP_Epoch [14/40], AP Train Accuracy: 99.33%,  AP Old Loss: 0.01909183, AP New Loss: 0.03418108, AP Finetuning term: 0.0014963772846385837
+AP Epoch [14/40], Test Accuracy: 89.25%
+AP_Epoch [15/40], AP Train Accuracy: 99.43%,  AP Old Loss: 0.01652255, AP New Loss: 0.03162352, AP Finetuning term: 0.0014979214174672961
+AP Epoch [15/40], Test Accuracy: 89.50%
+AP_Epoch [16/40], AP Train Accuracy: 99.45%,  AP Old Loss: 0.01646718, AP New Loss: 0.03156178, AP Finetuning term: 0.0014989846386015415
+AP Epoch [16/40], Test Accuracy: 90.22%
+AP_Epoch [17/40], AP Train Accuracy: 99.56%,  AP Old Loss: 0.01266558, AP New Loss: 0.02777879, AP Finetuning term: 0.0015015742974355817
+AP Epoch [17/40], Test Accuracy: 89.51%
+AP_Epoch [18/40], AP Train Accuracy: 99.53%,  AP Old Loss: 0.01388119, AP New Loss: 0.02899122, AP Finetuning term: 0.00150049920193851
+AP Epoch [18/40], Test Accuracy: 90.00%
+AP_Epoch [19/40], AP Train Accuracy: 99.53%,  AP Old Loss: 0.01406755, AP New Loss: 0.02917018, AP Finetuning term: 0.0015010632341727614
+AP Epoch [19/40], Test Accuracy: 90.06%
+AP_Epoch [20/40], AP Train Accuracy: 99.35%,  AP Old Loss: 0.01969298, AP New Loss: 0.03478427, AP Finetuning term: 0.0014964414294809103
+AP Epoch [20/40], Test Accuracy: 90.02%
+AP_Epoch [21/40], AP Train Accuracy: 99.51%,  AP Old Loss: 0.01525942, AP New Loss: 0.03036748, AP Finetuning term: 0.001500180922448635
+AP Epoch [21/40], Test Accuracy: 89.64%
+AP_Epoch [22/40], AP Train Accuracy: 99.34%,  AP Old Loss: 0.01884536, AP New Loss: 0.03393020, AP Finetuning term: 0.001496726181358099
+AP Epoch [22/40], Test Accuracy: 89.98%
+AP_Epoch [23/40], AP Train Accuracy: 99.44%,  AP Old Loss: 0.01622849, AP New Loss: 0.03133820, AP Finetuning term: 0.0014999363338574767
+AP Epoch [23/40], Test Accuracy: 89.58%
+AP_Epoch [24/40], AP Train Accuracy: 99.43%,  AP Old Loss: 0.01614414, AP New Loss: 0.03124445, AP Finetuning term: 0.001498634461313486
+AP Epoch [24/40], Test Accuracy: 89.43%
+AP_Epoch [25/40], AP Train Accuracy: 99.44%,  AP Old Loss: 0.01634388, AP New Loss: 0.03144601, AP Finetuning term: 0.0014987909235060215
+AP Epoch [25/40], Test Accuracy: 89.01%
+AP_Epoch [26/40], AP Train Accuracy: 99.41%,  AP Old Loss: 0.01692511, AP New Loss: 0.03201653, AP Finetuning term: 0.0014987351605668664
+AP Epoch [26/40], Test Accuracy: 89.88%
+AP_Epoch [27/40], AP Train Accuracy: 99.53%,  AP Old Loss: 0.01454228, AP New Loss: 0.02964814, AP Finetuning term: 0.0014998919796198606
+AP Epoch [27/40], Test Accuracy: 89.84%
+AP_Epoch [28/40], AP Train Accuracy: 99.44%,  AP Old Loss: 0.01710832, AP New Loss: 0.03220998, AP Finetuning term: 0.0014987579779699445
+AP Epoch [28/40], Test Accuracy: 90.15%
+AP_Epoch [29/40], AP Train Accuracy: 99.36%,  AP Old Loss: 0.01827691, AP New Loss: 0.03336868, AP Finetuning term: 0.001496432931162417
+AP Epoch [29/40], Test Accuracy: 89.70%
+AP_Epoch [30/40], AP Train Accuracy: 99.45%,  AP Old Loss: 0.01692916, AP New Loss: 0.03202799, AP Finetuning term: 0.001498728757724166
+AP Epoch [30/40], Test Accuracy: 90.10%
+AP_Epoch [31/40], AP Train Accuracy: 99.39%,  AP Old Loss: 0.01809995, AP New Loss: 0.03319090, AP Finetuning term: 0.0014976379461586475
+AP Epoch [31/40], Test Accuracy: 90.19%
+AP_Epoch [32/40], AP Train Accuracy: 99.47%,  AP Old Loss: 0.01625203, AP New Loss: 0.03135156, AP Finetuning term: 0.0014997267862781882
+AP Epoch [32/40], Test Accuracy: 89.83%
+AP_Epoch [33/40], AP Train Accuracy: 99.31%,  AP Old Loss: 0.02049841, AP New Loss: 0.03558244, AP Finetuning term: 0.0014958885731175542
+AP Epoch [33/40], Test Accuracy: 89.82%
+AP_Epoch [34/40], AP Train Accuracy: 99.36%,  AP Old Loss: 0.01831890, AP New Loss: 0.03341377, AP Finetuning term: 0.0014963822904974222
+AP Epoch [34/40], Test Accuracy: 89.81%
+AP_Epoch [35/40], AP Train Accuracy: 99.38%,  AP Old Loss: 0.01818146, AP New Loss: 0.03326675, AP Finetuning term: 0.001497472170740366
+AP Epoch [35/40], Test Accuracy: 89.96%
+AP_Epoch [36/40], AP Train Accuracy: 99.53%,  AP Old Loss: 0.01449177, AP New Loss: 0.02960525, AP Finetuning term: 0.0014997838297858834
+AP Epoch [36/40], Test Accuracy: 89.62%
+AP_Epoch [37/40], AP Train Accuracy: 99.48%,  AP Old Loss: 0.01531348, AP New Loss: 0.03041868, AP Finetuning term: 0.001499309204518795
+AP Epoch [37/40], Test Accuracy: 90.38%
+AP_Epoch [38/40], AP Train Accuracy: 99.39%,  AP Old Loss: 0.01747715, AP New Loss: 0.03256900, AP Finetuning term: 0.0014974685618653893
+AP Epoch [38/40], Test Accuracy: 89.88%
+AP_Epoch [39/40], AP Train Accuracy: 99.55%,  AP Old Loss: 0.01271120, AP New Loss: 0.02783164, AP Finetuning term: 0.0015021752333268523
+AP Epoch [39/40], Test Accuracy: 90.09%
+AP_Epoch [40/40], AP Train Accuracy: 99.39%,  AP Old Loss: 0.01751624, AP New Loss: 0.03260763, AP Finetuning term: 0.0014985036104917526
+AP Epoch [40/40], Test Accuracy: 89.84%
+Iteration Completed
+
+
+Selected indices list: [[1], [6], [0], [10], [8], [4], [9], [10], [8], [3, 5], [15, 7], [8, 23], [0, 4], [9, 15], [0, 9], [2, 23], [10, 14], [14, 23], [44, 12, 46, 6], [41, 10, 36, 45], [25, 43, 13, 30], [8, 19, 21, 39], [42, 36, 20, 47], [40, 0, 4, 15], [18, 11, 6, 15], [26, 11, 28, 45], [10, 28, 5, 23]]
+Remaining indices list: [[0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11], [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11], [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11], [0, 1, 2, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23], [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22], [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23], [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23], [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23], [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22], [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 45, 47], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 42, 43, 44, 46, 47], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 41, 43, 44, 45, 46], [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 42, 43, 44, 45, 46, 47], [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47], [0, 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]]
+Epoch [1/40], Train Accuracy: 99.37%
+Pruning Iteration 5, Epoch [1/40], Old Loss: 0.01900715, New Loss: 0.00211272
+Regularization term: 6.1824750900268555, Decorrelation term: 21.943883895874023
+Epoch [1/40], Test Accuracy: 89.97%
+Epoch [2/40], Train Accuracy: 99.28%
+Pruning Iteration 5, Epoch [2/40], Old Loss: 0.02076532, New Loss: 0.00663161
+Regularization term: 6.2130231857299805, Decorrelation term: 17.907032012939453
+Epoch [2/40], Test Accuracy: 90.03%
+Epoch [3/40], Train Accuracy: 99.36%
+Pruning Iteration 5, Epoch [3/40], Old Loss: 0.01996172, New Loss: 0.00681517
+Regularization term: 6.204033851623535, Decorrelation term: 22.1065731048584
+Epoch [3/40], Test Accuracy: 89.66%
+Epoch [4/40], Train Accuracy: 99.41%
+Pruning Iteration 5, Epoch [4/40], Old Loss: 0.01857810, New Loss: 0.00504056
+Regularization term: 6.274348735809326, Decorrelation term: 20.35199546813965
+Epoch [4/40], Test Accuracy: 89.63%
+Epoch [5/40], Train Accuracy: 99.37%
+Pruning Iteration 5, Epoch [5/40], Old Loss: 0.01804002, New Loss: 0.00430897
+Regularization term: 6.3362932205200195, Decorrelation term: 22.027324676513672
+Epoch [5/40], Test Accuracy: 90.11%
+Epoch [6/40], Train Accuracy: 99.49%
+Pruning Iteration 5, Epoch [6/40], Old Loss: 0.01502866, New Loss: 0.00066639
+Regularization term: 6.210770130157471, Decorrelation term: 19.665220260620117
+Epoch [6/40], Test Accuracy: 89.58%
+Epoch [7/40], Train Accuracy: 99.54%
+Pruning Iteration 5, Epoch [7/40], Old Loss: 0.01390963, New Loss: -0.00051267
+Regularization term: 6.393098831176758, Decorrelation term: 21.378684997558594
+Epoch [7/40], Test Accuracy: 90.37%
+Epoch [8/40], Train Accuracy: 99.38%
+Pruning Iteration 5, Epoch [8/40], Old Loss: 0.01822736, New Loss: 0.00281051
+Regularization term: 6.352572917938232, Decorrelation term: 21.346668243408203
+Epoch [8/40], Test Accuracy: 90.18%
+Epoch [9/40], Train Accuracy: 99.36%
+Pruning Iteration 5, Epoch [9/40], Old Loss: 0.01900008, New Loss: 0.00411063
+Regularization term: 6.353677749633789, Decorrelation term: 18.81358528137207
+Epoch [9/40], Test Accuracy: 89.28%
+Epoch [10/40], Train Accuracy: 99.35%
+Pruning Iteration 5, Epoch [10/40], Old Loss: 0.01858788, New Loss: 0.00424675
+Regularization term: 6.3787312507629395, Decorrelation term: 19.415307998657227
+Epoch [10/40], Test Accuracy: 89.31%
+Epoch [11/40], Train Accuracy: 99.46%
+Pruning Iteration 5, Epoch [11/40], Old Loss: 0.01718027, New Loss: 0.00361972
+Regularization term: 6.323915004730225, Decorrelation term: 19.504987716674805
+Epoch [11/40], Test Accuracy: 89.70%
+Epoch [12/40], Train Accuracy: 99.40%
+Pruning Iteration 5, Epoch [12/40], Old Loss: 0.01790913, New Loss: 0.00357694
+Regularization term: 6.463449478149414, Decorrelation term: 20.76211929321289
+Epoch [12/40], Test Accuracy: 89.52%
+Epoch [13/40], Train Accuracy: 99.43%
+Pruning Iteration 5, Epoch [13/40], Old Loss: 0.01744405, New Loss: 0.00347481
+Regularization term: 6.427735328674316, Decorrelation term: 21.376487731933594
+Epoch [13/40], Test Accuracy: 89.67%
+Epoch [14/40], Train Accuracy: 99.46%
+Pruning Iteration 5, Epoch [14/40], Old Loss: 0.01754720, New Loss: 0.00232955
+Regularization term: 6.334414005279541, Decorrelation term: 19.70586395263672
+Epoch [14/40], Test Accuracy: 89.96%
+Epoch [15/40], Train Accuracy: 99.50%
+Pruning Iteration 5, Epoch [15/40], Old Loss: 0.01480578, New Loss: 0.00056974
+Regularization term: 6.420714855194092, Decorrelation term: 20.664560317993164
+Epoch [15/40], Test Accuracy: 89.69%
+Epoch [16/40], Train Accuracy: 99.49%
+Pruning Iteration 5, Epoch [16/40], Old Loss: 0.01459456, New Loss: 0.00070344
+Regularization term: 6.40331506729126, Decorrelation term: 18.532007217407227
+Epoch [16/40], Test Accuracy: 89.58%
+Epoch [17/40], Train Accuracy: 99.49%
+Pruning Iteration 5, Epoch [17/40], Old Loss: 0.01568088, New Loss: 0.00253149
+Regularization term: 6.407914638519287, Decorrelation term: 19.8806209564209
+Epoch [17/40], Test Accuracy: 89.54%
+Epoch [18/40], Train Accuracy: 99.34%
+Pruning Iteration 5, Epoch [18/40], Old Loss: 0.01982655, New Loss: 0.00484193
+Regularization term: 6.323317527770996, Decorrelation term: 22.029460906982422
+Epoch [18/40], Test Accuracy: 89.29%
+Epoch [19/40], Train Accuracy: 99.33%
+Pruning Iteration 5, Epoch [19/40], Old Loss: 0.01949146, New Loss: 0.00595712
+Regularization term: 6.332723617553711, Decorrelation term: 17.80089569091797
+Epoch [19/40], Test Accuracy: 90.21%
+Epoch [20/40], Train Accuracy: 99.46%
+Pruning Iteration 5, Epoch [20/40], Old Loss: 0.01574517, New Loss: 0.00162900
+Regularization term: 6.482869625091553, Decorrelation term: 18.748764038085938
+Epoch [20/40], Test Accuracy: 89.24%
+Epoch [21/40], Train Accuracy: 99.37%
+Pruning Iteration 5, Epoch [21/40], Old Loss: 0.01827463, New Loss: 0.00462450
+Regularization term: 6.341703414916992, Decorrelation term: 20.23309326171875
+Epoch [21/40], Test Accuracy: 89.83%
+Epoch [22/40], Train Accuracy: 99.34%
+Pruning Iteration 5, Epoch [22/40], Old Loss: 0.01831243, New Loss: 0.00461791
+Regularization term: 6.424979209899902, Decorrelation term: 16.3077449798584
+Epoch [22/40], Test Accuracy: 89.77%
+Epoch [23/40], Train Accuracy: 99.38%
+Pruning Iteration 5, Epoch [23/40], Old Loss: 0.01806122, New Loss: 0.00340390
+Regularization term: 6.375226974487305, Decorrelation term: 20.747766494750977
+Epoch [23/40], Test Accuracy: 89.85%
+Epoch [24/40], Train Accuracy: 99.33%
+Pruning Iteration 5, Epoch [24/40], Old Loss: 0.01935896, New Loss: 0.00537351
+Regularization term: 6.452655792236328, Decorrelation term: 18.703657150268555
+Epoch [24/40], Test Accuracy: 90.19%
+Epoch [25/40], Train Accuracy: 99.47%
+Pruning Iteration 5, Epoch [25/40], Old Loss: 0.01726135, New Loss: 0.00223299
+Regularization term: 6.411633014678955, Decorrelation term: 21.332685470581055
+Epoch [25/40], Test Accuracy: 89.45%
+Epoch [26/40], Train Accuracy: 99.42%
+Pruning Iteration 5, Epoch [26/40], Old Loss: 0.01626671, New Loss: 0.00186184
+Regularization term: 6.382197380065918, Decorrelation term: 19.386064529418945
+Epoch [26/40], Test Accuracy: 89.96%
+Epoch [27/40], Train Accuracy: 99.36%
+Pruning Iteration 5, Epoch [27/40], Old Loss: 0.01818310, New Loss: 0.00436983
+Regularization term: 6.363346576690674, Decorrelation term: 20.912628173828125
+Epoch [27/40], Test Accuracy: 89.81%
+Epoch [28/40], Train Accuracy: 99.47%
+Pruning Iteration 5, Epoch [28/40], Old Loss: 0.01645532, New Loss: 0.00080979
+Regularization term: 6.418379306793213, Decorrelation term: 22.343904495239258
+Epoch [28/40], Test Accuracy: 89.88%
+Epoch [29/40], Train Accuracy: 99.43%
+Pruning Iteration 5, Epoch [29/40], Old Loss: 0.01754306, New Loss: 0.00391597
+Regularization term: 6.308117866516113, Decorrelation term: 18.552459716796875
+Epoch [29/40], Test Accuracy: 88.82%
+Epoch [30/40], Train Accuracy: 99.43%
+Pruning Iteration 5, Epoch [30/40], Old Loss: 0.01644756, New Loss: 0.00250289
+Regularization term: 6.296003818511963, Decorrelation term: 20.198654174804688
+Epoch [30/40], Test Accuracy: 89.27%
+Epoch [31/40], Train Accuracy: 99.30%
+Pruning Iteration 5, Epoch [31/40], Old Loss: 0.01895035, New Loss: 0.00479111
+Regularization term: 6.338123798370361, Decorrelation term: 19.621627807617188
+Epoch [31/40], Test Accuracy: 89.90%
+Epoch [32/40], Train Accuracy: 99.31%
+Pruning Iteration 5, Epoch [32/40], Old Loss: 0.02054218, New Loss: 0.00542262
+Regularization term: 6.339682102203369, Decorrelation term: 19.7822322845459
+Epoch [32/40], Test Accuracy: 89.78%
+Epoch [33/40], Train Accuracy: 99.42%
+Pruning Iteration 5, Epoch [33/40], Old Loss: 0.01726936, New Loss: 0.00275080
+Regularization term: 6.356910705566406, Decorrelation term: 19.498512268066406
+Epoch [33/40], Test Accuracy: 89.96%
+Epoch [34/40], Train Accuracy: 99.43%
+Pruning Iteration 5, Epoch [34/40], Old Loss: 0.01770358, New Loss: 0.00337360
+Regularization term: 6.27548885345459, Decorrelation term: 17.7957820892334
+Epoch [34/40], Test Accuracy: 90.15%
+Epoch [35/40], Train Accuracy: 99.36%
+Pruning Iteration 5, Epoch [35/40], Old Loss: 0.01943621, New Loss: 0.00452589
+Regularization term: 6.36793851852417, Decorrelation term: 21.997465133666992
+Epoch [35/40], Test Accuracy: 89.94%
+Epoch [36/40], Train Accuracy: 99.28%
+Pruning Iteration 5, Epoch [36/40], Old Loss: 0.02117943, New Loss: 0.00668485
+Regularization term: 6.349775314331055, Decorrelation term: 22.479862213134766
+Epoch [36/40], Test Accuracy: 89.64%
+Epoch [37/40], Train Accuracy: 99.50%
+Pruning Iteration 5, Epoch [37/40], Old Loss: 0.01522124, New Loss: 0.00109166
+Regularization term: 6.456943988800049, Decorrelation term: 21.5131893157959
+Epoch [37/40], Test Accuracy: 89.68%
+Epoch [38/40], Train Accuracy: 99.45%
+Pruning Iteration 5, Epoch [38/40], Old Loss: 0.01594296, New Loss: 0.00118711
+Regularization term: 6.402776718139648, Decorrelation term: 19.640026092529297
+Epoch [38/40], Test Accuracy: 89.95%
+Epoch [39/40], Train Accuracy: 99.35%
+Pruning Iteration 5, Epoch [39/40], Old Loss: 0.01938194, New Loss: 0.00524161
+Regularization term: 6.361216068267822, Decorrelation term: 19.53628921508789
+Epoch [39/40], Test Accuracy: 89.40%
+Epoch [40/40], Train Accuracy: 99.32%
+Pruning Iteration 5, Epoch [40/40], Old Loss: 0.01925021, New Loss: 0.00462775
+Regularization term: 6.285433292388916, Decorrelation term: 20.761457443237305
+Epoch [40/40], Test Accuracy: 89.63%
+Stage 1 - Remaining Filters: 12
+Stage 2 - Remaining Filters: 24
+Stage 3 - Remaining Filters: 48
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_normalization() for <class 'torch.nn.modules.batchnorm.BatchNorm2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.activation.ReLU'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[INFO] Register count_adap_avgpool() for <class 'torch.nn.modules.pooling.AdaptiveAvgPool2d'>.
+[INFO] Register count_linear() for <class 'torch.nn.modules.linear.Linear'>.
+Total FLOPs: 96101056.0, Total Params: 640546.0
+Starting AP Training
+AP_Epoch [1/40], AP Train Accuracy: 99.06%,  AP Old Loss: 0.02799930, AP New Loss: 0.04293621, AP Finetuning term: 0.001484318869188428
+AP Epoch [1/40], Test Accuracy: 90.15%
+AP_Epoch [2/40], AP Train Accuracy: 99.46%,  AP Old Loss: 0.01546613, AP New Loss: 0.03024611, AP Finetuning term: 0.001469776383601129
+AP Epoch [2/40], Test Accuracy: 89.74%
+AP_Epoch [3/40], AP Train Accuracy: 99.42%,  AP Old Loss: 0.01678780, AP New Loss: 0.03156616, AP Finetuning term: 0.001469306298531592
+AP Epoch [3/40], Test Accuracy: 89.86%
+AP_Epoch [4/40], AP Train Accuracy: 99.66%,  AP Old Loss: 0.01107994, AP New Loss: 0.02587866, AP Finetuning term: 0.001473481534048915
+AP Epoch [4/40], Test Accuracy: 89.32%
+AP_Epoch [5/40], AP Train Accuracy: 99.45%,  AP Old Loss: 0.01606405, AP New Loss: 0.03084250, AP Finetuning term: 0.0014697974547743797
+AP Epoch [5/40], Test Accuracy: 90.00%
+AP_Epoch [6/40], AP Train Accuracy: 99.47%,  AP Old Loss: 0.01653850, AP New Loss: 0.03131599, AP Finetuning term: 0.001470027375034988
+AP Epoch [6/40], Test Accuracy: 90.17%
+AP_Epoch [7/40], AP Train Accuracy: 99.37%,  AP Old Loss: 0.01896989, AP New Loss: 0.03358720, AP Finetuning term: 0.0014509265311062336
+AP Epoch [7/40], Test Accuracy: 89.62%
+AP_Epoch [8/40], AP Train Accuracy: 99.34%,  AP Old Loss: 0.01927420, AP New Loss: 0.03388262, AP Finetuning term: 0.00145173619966954
+AP Epoch [8/40], Test Accuracy: 90.17%
+AP_Epoch [9/40], AP Train Accuracy: 99.32%,  AP Old Loss: 0.02039823, AP New Loss: 0.03502050, AP Finetuning term: 0.0014500266406685114
+AP Epoch [9/40], Test Accuracy: 89.55%
+AP_Epoch [10/40], AP Train Accuracy: 99.38%,  AP Old Loss: 0.01912764, AP New Loss: 0.03375168, AP Finetuning term: 0.0014514904469251633
+AP Epoch [10/40], Test Accuracy: 89.42%
+AP_Epoch [11/40], AP Train Accuracy: 99.36%,  AP Old Loss: 0.01820653, AP New Loss: 0.03281728, AP Finetuning term: 0.0014527742750942707
+AP Epoch [11/40], Test Accuracy: 90.04%
+AP_Epoch [12/40], AP Train Accuracy: 99.31%,  AP Old Loss: 0.01929332, AP New Loss: 0.03390923, AP Finetuning term: 0.0014512137277051806
+AP Epoch [12/40], Test Accuracy: 90.05%
+AP_Epoch [13/40], AP Train Accuracy: 99.39%,  AP Old Loss: 0.01763643, AP New Loss: 0.03225051, AP Finetuning term: 0.001452884403988719
+AP Epoch [13/40], Test Accuracy: 89.55%
+AP_Epoch [14/40], AP Train Accuracy: 99.27%,  AP Old Loss: 0.02141088, AP New Loss: 0.03602568, AP Finetuning term: 0.0014495538780465722
+AP Epoch [14/40], Test Accuracy: 89.70%
+AP_Epoch [15/40], AP Train Accuracy: 99.32%,  AP Old Loss: 0.02031292, AP New Loss: 0.03492461, AP Finetuning term: 0.0014510835753753781
+AP Epoch [15/40], Test Accuracy: 89.45%
+AP_Epoch [16/40], AP Train Accuracy: 99.32%,  AP Old Loss: 0.02116827, AP New Loss: 0.03577431, AP Finetuning term: 0.0014516109367832541
+AP Epoch [16/40], Test Accuracy: 89.56%
+AP_Epoch [17/40], AP Train Accuracy: 99.33%,  AP Old Loss: 0.02061576, AP New Loss: 0.03522867, AP Finetuning term: 0.0014508877648040652
+AP Epoch [17/40], Test Accuracy: 89.84%
+AP_Epoch [18/40], AP Train Accuracy: 99.38%,  AP Old Loss: 0.01802707, AP New Loss: 0.03264985, AP Finetuning term: 0.0014512704219669104
+AP Epoch [18/40], Test Accuracy: 89.60%
+AP_Epoch [19/40], AP Train Accuracy: 99.35%,  AP Old Loss: 0.01902205, AP New Loss: 0.03363992, AP Finetuning term: 0.0014517653034999967
+AP Epoch [19/40], Test Accuracy: 89.82%
+AP_Epoch [20/40], AP Train Accuracy: 99.32%,  AP Old Loss: 0.02037203, AP New Loss: 0.03498880, AP Finetuning term: 0.001450628973543644
+AP Epoch [20/40], Test Accuracy: 89.66%
+AP_Epoch [21/40], AP Train Accuracy: 99.32%,  AP Old Loss: 0.02070646, AP New Loss: 0.03531936, AP Finetuning term: 0.001450750743970275
+AP Epoch [21/40], Test Accuracy: 90.24%
+AP_Epoch [22/40], AP Train Accuracy: 99.49%,  AP Old Loss: 0.01516876, AP New Loss: 0.02960251, AP Finetuning term: 0.0014362817164510489
+AP Epoch [22/40], Test Accuracy: 89.85%
+AP_Epoch [23/40], AP Train Accuracy: 99.36%,  AP Old Loss: 0.01871501, AP New Loss: 0.03313999, AP Finetuning term: 0.0014341697096824646
+AP Epoch [23/40], Test Accuracy: 90.03%
+AP_Epoch [24/40], AP Train Accuracy: 99.51%,  AP Old Loss: 0.01481379, AP New Loss: 0.02925227, AP Finetuning term: 0.0014370065182447433
+AP Epoch [24/40], Test Accuracy: 90.27%
+AP_Epoch [25/40], AP Train Accuracy: 99.50%,  AP Old Loss: 0.01497805, AP New Loss: 0.02927681, AP Finetuning term: 0.001420636079274118
+AP Epoch [25/40], Test Accuracy: 89.57%
+AP_Epoch [26/40], AP Train Accuracy: 99.40%,  AP Old Loss: 0.01852524, AP New Loss: 0.03281584, AP Finetuning term: 0.001418743864633143
+AP Epoch [26/40], Test Accuracy: 89.82%
+AP_Epoch [27/40], AP Train Accuracy: 99.38%,  AP Old Loss: 0.01891646, AP New Loss: 0.03320564, AP Finetuning term: 0.0014187376946210861
+AP Epoch [27/40], Test Accuracy: 89.78%
+AP_Epoch [28/40], AP Train Accuracy: 99.49%,  AP Old Loss: 0.01543097, AP New Loss: 0.02972697, AP Finetuning term: 0.0014209828805178404
+AP Epoch [28/40], Test Accuracy: 89.49%
+AP_Epoch [29/40], AP Train Accuracy: 99.47%,  AP Old Loss: 0.01523573, AP New Loss: 0.02953119, AP Finetuning term: 0.0014210736844688654
+AP Epoch [29/40], Test Accuracy: 90.18%
+AP_Epoch [30/40], AP Train Accuracy: 99.33%,  AP Old Loss: 0.01864273, AP New Loss: 0.03291996, AP Finetuning term: 0.0014188500354066491
+AP Epoch [30/40], Test Accuracy: 89.46%
+AP_Epoch [31/40], AP Train Accuracy: 99.45%,  AP Old Loss: 0.01778361, AP New Loss: 0.03207524, AP Finetuning term: 0.0014202797319740057
+AP Epoch [31/40], Test Accuracy: 89.69%
+AP_Epoch [32/40], AP Train Accuracy: 99.38%,  AP Old Loss: 0.01872021, AP New Loss: 0.03300298, AP Finetuning term: 0.001417734893038869
+AP Epoch [32/40], Test Accuracy: 89.70%
+AP_Epoch [33/40], AP Train Accuracy: 99.35%,  AP Old Loss: 0.01952646, AP New Loss: 0.03380986, AP Finetuning term: 0.0014178748242557049
+AP Epoch [33/40], Test Accuracy: 89.99%
+AP_Epoch [34/40], AP Train Accuracy: 99.49%,  AP Old Loss: 0.01587995, AP New Loss: 0.03017387, AP Finetuning term: 0.0014206942869350314
+AP Epoch [34/40], Test Accuracy: 89.95%
+AP_Epoch [35/40], AP Train Accuracy: 99.49%,  AP Old Loss: 0.01468485, AP New Loss: 0.02897954, AP Finetuning term: 0.0014217697316780686
+AP Epoch [35/40], Test Accuracy: 89.66%
+AP_Epoch [36/40], AP Train Accuracy: 99.41%,  AP Old Loss: 0.01828594, AP New Loss: 0.03257230, AP Finetuning term: 0.0014184530591592193
+AP Epoch [36/40], Test Accuracy: 89.78%
+AP_Epoch [37/40], AP Train Accuracy: 99.25%,  AP Old Loss: 0.02110774, AP New Loss: 0.03538071, AP Finetuning term: 0.001417029881849885
+AP Epoch [37/40], Test Accuracy: 90.11%
+AP_Epoch [38/40], AP Train Accuracy: 99.37%,  AP Old Loss: 0.01892588, AP New Loss: 0.03321117, AP Finetuning term: 0.001418845378793776
+AP Epoch [38/40], Test Accuracy: 89.86%
+AP_Epoch [39/40], AP Train Accuracy: 99.41%,  AP Old Loss: 0.01797231, AP New Loss: 0.03225810, AP Finetuning term: 0.0014190558576956391
+AP Epoch [39/40], Test Accuracy: 89.43%
+AP_Epoch [40/40], AP Train Accuracy: 99.48%,  AP Old Loss: 0.01564394, AP New Loss: 0.02993805, AP Finetuning term: 0.0014208134962245822
+AP Epoch [40/40], Test Accuracy: 89.80%
+Iteration Completed
+
+
+Selected indices list: [[4], [1], [1], [1], [8], [8], [6], [2], [9], [0, 11], [18, 3], [16, 21], [2, 5], [17, 12], [8, 16], [18, 14], [17, 12], [13, 6], [35, 7, 12, 31], [25, 20, 21, 17], [25, 27, 5, 1], [41, 43, 29, 33], [40, 26, 43, 38], [27, 31, 14, 39], [29, 43, 4, 5], [41, 35, 5, 6], [8, 25, 26, 15]]
+Remaining indices list: [[0, 1, 2, 3, 5, 6, 7, 8, 9, 10], [0, 2, 3, 4, 5, 6, 7, 8, 9, 10], [0, 2, 3, 4, 5, 6, 7, 8, 9, 10], [0, 2, 3, 4, 5, 6, 7, 8, 9, 10], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10], [0, 1, 2, 3, 4, 5, 7, 8, 9, 10], [0, 1, 3, 4, 5, 6, 7, 8, 9, 10], [0, 1, 2, 3, 4, 5, 6, 7, 8, 10], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20], [0, 1, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 18, 19, 20, 21], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 18, 19, 20, 21], [0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21], [0, 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 32, 33, 34, 36, 37, 38, 39, 40, 41, 42, 43], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43], [0, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 42], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 39, 41, 42], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 32, 33, 34, 35, 36, 37, 38, 40, 41, 42, 43], [0, 1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42], [0, 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 36, 37, 38, 39, 40, 42, 43], [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]]
+Epoch [1/40], Train Accuracy: 99.45%
+Pruning Iteration 6, Epoch [1/40], Old Loss: 0.01561521, New Loss: -0.00002075
+Regularization term: 6.948487281799316, Decorrelation term: 20.416566848754883
+Epoch [1/40], Test Accuracy: 89.96%
+Epoch [2/40], Train Accuracy: 99.41%
+Pruning Iteration 6, Epoch [2/40], Old Loss: 0.01636920, New Loss: 0.00206187
+Regularization term: 6.957785606384277, Decorrelation term: 21.33823585510254
+Epoch [2/40], Test Accuracy: 89.35%
+Epoch [3/40], Train Accuracy: 99.40%
+Pruning Iteration 6, Epoch [3/40], Old Loss: 0.01871902, New Loss: 0.00413592
+Regularization term: 6.827246189117432, Decorrelation term: 23.318410873413086
+Epoch [3/40], Test Accuracy: 89.94%
+Epoch [4/40], Train Accuracy: 99.50%
+Pruning Iteration 6, Epoch [4/40], Old Loss: 0.01560653, New Loss: 0.00212544
+Regularization term: 6.954956531524658, Decorrelation term: 21.207843780517578
+Epoch [4/40], Test Accuracy: 90.16%
+Epoch [5/40], Train Accuracy: 99.53%
+Pruning Iteration 6, Epoch [5/40], Old Loss: 0.01410107, New Loss: 0.00012566
+Regularization term: 6.8787431716918945, Decorrelation term: 20.176286697387695
+Epoch [5/40], Test Accuracy: 89.66%
+Epoch [6/40], Train Accuracy: 99.41%
+Pruning Iteration 6, Epoch [6/40], Old Loss: 0.01737252, New Loss: 0.00299665
+Regularization term: 6.899001598358154, Decorrelation term: 20.84627342224121
+Epoch [6/40], Test Accuracy: 89.74%
+Epoch [7/40], Train Accuracy: 99.38%
+Pruning Iteration 6, Epoch [7/40], Old Loss: 0.01898702, New Loss: 0.00335075
+Regularization term: 7.018152236938477, Decorrelation term: 22.236127853393555
+Epoch [7/40], Test Accuracy: 90.06%
+Epoch [8/40], Train Accuracy: 99.49%
+Pruning Iteration 6, Epoch [8/40], Old Loss: 0.01494356, New Loss: 0.00080572
+Regularization term: 6.779786109924316, Decorrelation term: 20.347137451171875
+Epoch [8/40], Test Accuracy: 90.11%
+Epoch [9/40], Train Accuracy: 99.35%
+Pruning Iteration 6, Epoch [9/40], Old Loss: 0.01805015, New Loss: 0.00356946
+Regularization term: 6.903769493103027, Decorrelation term: 24.150129318237305
+Epoch [9/40], Test Accuracy: 89.91%
+Epoch [10/40], Train Accuracy: 99.37%
+Pruning Iteration 6, Epoch [10/40], Old Loss: 0.01849839, New Loss: 0.00289075
+Regularization term: 6.950064659118652, Decorrelation term: 23.197683334350586
+Epoch [10/40], Test Accuracy: 89.80%
+Epoch [11/40], Train Accuracy: 99.41%
+Pruning Iteration 6, Epoch [11/40], Old Loss: 0.01810747, New Loss: 0.00434493
+Regularization term: 6.883332252502441, Decorrelation term: 21.311084747314453
+Epoch [11/40], Test Accuracy: 89.48%
+Epoch [12/40], Train Accuracy: 99.49%
+Pruning Iteration 6, Epoch [12/40], Old Loss: 0.01608866, New Loss: 0.00069725
+Regularization term: 6.941797733306885, Decorrelation term: 23.920705795288086
+Epoch [12/40], Test Accuracy: 90.18%
+Epoch [13/40], Train Accuracy: 99.31%
+Pruning Iteration 6, Epoch [13/40], Old Loss: 0.02027738, New Loss: 0.00359196
+Regularization term: 6.925608158111572, Decorrelation term: 22.219711303710938
+Epoch [13/40], Test Accuracy: 89.67%
+Epoch [14/40], Train Accuracy: 99.45%
+Pruning Iteration 6, Epoch [14/40], Old Loss: 0.01616545, New Loss: -0.00176216
+Regularization term: 6.93438196182251, Decorrelation term: 24.998291015625
+Epoch [14/40], Test Accuracy: 90.04%
+Epoch [15/40], Train Accuracy: 99.50%
+Pruning Iteration 6, Epoch [15/40], Old Loss: 0.01498149, New Loss: -0.00131698
+Regularization term: 6.881601333618164, Decorrelation term: 22.207426071166992
+Epoch [15/40], Test Accuracy: 89.97%
+Epoch [16/40], Train Accuracy: 99.47%
+Pruning Iteration 6, Epoch [16/40], Old Loss: 0.01537740, New Loss: -0.00191982
+Regularization term: 6.952683448791504, Decorrelation term: 25.76462173461914
+Epoch [16/40], Test Accuracy: 89.82%
+Epoch [17/40], Train Accuracy: 99.27%
+Pruning Iteration 6, Epoch [17/40], Old Loss: 0.02089209, New Loss: 0.00336280
+Regularization term: 7.002715110778809, Decorrelation term: 23.181564331054688
+Epoch [17/40], Test Accuracy: 89.35%
+Epoch [18/40], Train Accuracy: 99.38%
+Pruning Iteration 6, Epoch [18/40], Old Loss: 0.01876499, New Loss: 0.00094906
+Regularization term: 6.886314392089844, Decorrelation term: 24.88861656188965
+Epoch [18/40], Test Accuracy: 89.62%
+Epoch [19/40], Train Accuracy: 99.36%
+Pruning Iteration 6, Epoch [19/40], Old Loss: 0.01846410, New Loss: 0.00080923
+Regularization term: 6.686916828155518, Decorrelation term: 22.344022750854492
+Epoch [19/40], Test Accuracy: 90.02%
+Epoch [20/40], Train Accuracy: 99.35%
+Pruning Iteration 6, Epoch [20/40], Old Loss: 0.01897469, New Loss: 0.00175668
+Regularization term: 6.81606912612915, Decorrelation term: 23.162912368774414
+Epoch [20/40], Test Accuracy: 89.86%
+Epoch [21/40], Train Accuracy: 99.47%
+Pruning Iteration 6, Epoch [21/40], Old Loss: 0.01644614, New Loss: -0.00054709
+Regularization term: 6.932150363922119, Decorrelation term: 23.305208206176758
+Epoch [21/40], Test Accuracy: 89.74%
+Epoch [22/40], Train Accuracy: 99.40%
+Pruning Iteration 6, Epoch [22/40], Old Loss: 0.01759793, New Loss: 0.00065098
+Regularization term: 6.8872270584106445, Decorrelation term: 25.6785831451416
+Epoch [22/40], Test Accuracy: 90.31%
+Epoch [23/40], Train Accuracy: 99.62%
+Pruning Iteration 6, Epoch [23/40], Old Loss: 0.01172498, New Loss: -0.00597646
+Regularization term: 6.878638744354248, Decorrelation term: 23.323530197143555
+Epoch [23/40], Test Accuracy: 89.52%
+Epoch [24/40], Train Accuracy: 99.58%
+Pruning Iteration 6, Epoch [24/40], Old Loss: 0.01277564, New Loss: -0.00590538
+Regularization term: 6.811850547790527, Decorrelation term: 24.93579864501953
+Epoch [24/40], Test Accuracy: 89.92%
+Epoch [25/40], Train Accuracy: 99.58%
+Pruning Iteration 6, Epoch [25/40], Old Loss: 0.01154967, New Loss: -0.00555849
+Regularization term: 6.853648662567139, Decorrelation term: 23.321002960205078
+Epoch [25/40], Test Accuracy: 89.96%
+Epoch [26/40], Train Accuracy: 99.55%
+Pruning Iteration 6, Epoch [26/40], Old Loss: 0.01362928, New Loss: -0.00481813
+Regularization term: 6.908128261566162, Decorrelation term: 24.061067581176758
+Epoch [26/40], Test Accuracy: 90.41%
+Epoch [27/40], Train Accuracy: 99.57%
+Pruning Iteration 6, Epoch [27/40], Old Loss: 0.01306758, New Loss: -0.00377357
+Regularization term: 6.8630900382995605, Decorrelation term: 24.17962074279785
+Epoch [27/40], Test Accuracy: 90.27%
+Epoch [28/40], Train Accuracy: 99.53%
+Pruning Iteration 6, Epoch [28/40], Old Loss: 0.01345774, New Loss: -0.00279569
+Regularization term: 6.890551567077637, Decorrelation term: 25.203659057617188
+Epoch [28/40], Test Accuracy: 89.78%
+Epoch [29/40], Train Accuracy: 99.67%
+Pruning Iteration 6, Epoch [29/40], Old Loss: 0.01020191, New Loss: -0.00710221
+Regularization term: 6.956009864807129, Decorrelation term: 24.433652877807617
+Epoch [29/40], Test Accuracy: 89.69%
+Epoch [30/40], Train Accuracy: 99.53%
+Pruning Iteration 6, Epoch [30/40], Old Loss: 0.01337196, New Loss: -0.00300805
+Regularization term: 6.881925582885742, Decorrelation term: 21.49120330810547
+Epoch [30/40], Test Accuracy: 90.06%
+Epoch [31/40], Train Accuracy: 99.47%
+Pruning Iteration 6, Epoch [31/40], Old Loss: 0.01394501, New Loss: -0.00185773
+Regularization term: 6.841468811035156, Decorrelation term: 23.42310905456543
+Epoch [31/40], Test Accuracy: 89.48%
+Epoch [32/40], Train Accuracy: 99.55%
+Pruning Iteration 6, Epoch [32/40], Old Loss: 0.01303112, New Loss: -0.00648077
+Regularization term: 6.889737129211426, Decorrelation term: 27.745357513427734
+Epoch [32/40], Test Accuracy: 89.37%
+Epoch [33/40], Train Accuracy: 99.62%
+Pruning Iteration 6, Epoch [33/40], Old Loss: 0.01183897, New Loss: -0.00497895
+Regularization term: 6.811074733734131, Decorrelation term: 24.069074630737305
+Epoch [33/40], Test Accuracy: 90.21%
+Epoch [34/40], Train Accuracy: 99.51%
+Pruning Iteration 6, Epoch [34/40], Old Loss: 0.01417014, New Loss: -0.00164611
+Regularization term: 6.868081092834473, Decorrelation term: 23.06875228881836
+Epoch [34/40], Test Accuracy: 89.94%
+Epoch [35/40], Train Accuracy: 99.53%
+Pruning Iteration 6, Epoch [35/40], Old Loss: 0.01468431, New Loss: -0.00206590
+Regularization term: 6.833013534545898, Decorrelation term: 23.798662185668945
+Epoch [35/40], Test Accuracy: 89.52%
+Epoch [36/40], Train Accuracy: 99.46%
+Pruning Iteration 6, Epoch [36/40], Old Loss: 0.01503452, New Loss: -0.00143184
+Regularization term: 6.834946632385254, Decorrelation term: 22.355501174926758
+Epoch [36/40], Test Accuracy: 89.56%
+Epoch [37/40], Train Accuracy: 99.57%
+Pruning Iteration 6, Epoch [37/40], Old Loss: 0.01267681, New Loss: -0.00417393
+Regularization term: 6.890849590301514, Decorrelation term: 23.165977478027344
+Epoch [37/40], Test Accuracy: 89.82%
+Epoch [38/40], Train Accuracy: 99.51%
+Pruning Iteration 6, Epoch [38/40], Old Loss: 0.01417298, New Loss: -0.00339915
+Regularization term: 6.810845375061035, Decorrelation term: 23.33566665649414
+Epoch [38/40], Test Accuracy: 90.09%
+Epoch [39/40], Train Accuracy: 99.63%
+Pruning Iteration 6, Epoch [39/40], Old Loss: 0.01194793, New Loss: -0.00440129
+Regularization term: 6.857931137084961, Decorrelation term: 24.1540584564209
+Epoch [39/40], Test Accuracy: 89.73%
+Epoch [40/40], Train Accuracy: 99.64%
+Pruning Iteration 6, Epoch [40/40], Old Loss: 0.01120413, New Loss: -0.00625794
+Regularization term: 6.879477500915527, Decorrelation term: 23.29817008972168
+Epoch [40/40], Test Accuracy: 90.23%
+Stage 1 - Remaining Filters: 11
+Stage 2 - Remaining Filters: 22
+Stage 3 - Remaining Filters: 44
+[INFO] Register count_convNd() for <class 'torch.nn.modules.conv.Conv2d'>.
+[INFO] Register count_normalization() for <class 'torch.nn.modules.batchnorm.BatchNorm2d'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.activation.ReLU'>.
+[INFO] Register zero_ops() for <class 'torch.nn.modules.container.Sequential'>.
+[INFO] Register count_adap_avgpool() for <class 'torch.nn.modules.pooling.AdaptiveAvgPool2d'>.
+[INFO] Register count_linear() for <class 'torch.nn.modules.linear.Linear'>.
+Total FLOPs: 88221376.0, Total Params: 587428.0
+Starting AP Training
+AP_Epoch [1/40], AP Train Accuracy: 99.05%,  AP Old Loss: 0.02774142, AP New Loss: 0.04193790, AP Finetuning term: 0.001413050340488553
+AP Epoch [1/40], Test Accuracy: 89.90%
+AP_Epoch [2/40], AP Train Accuracy: 99.46%,  AP Old Loss: 0.01675831, AP New Loss: 0.03083696, AP Finetuning term: 0.0014018760994076729
+AP Epoch [2/40], Test Accuracy: 90.39%
+AP_Epoch [3/40], AP Train Accuracy: 99.46%,  AP Old Loss: 0.01634764, AP New Loss: 0.03031349, AP Finetuning term: 0.0013888947432860732
+AP Epoch [3/40], Test Accuracy: 89.76%
+AP_Epoch [4/40], AP Train Accuracy: 99.45%,  AP Old Loss: 0.01714884, AP New Loss: 0.03111055, AP Finetuning term: 0.001388641889207065
+AP Epoch [4/40], Test Accuracy: 89.42%
+AP_Epoch [5/40], AP Train Accuracy: 99.47%,  AP Old Loss: 0.01589180, AP New Loss: 0.02985699, AP Finetuning term: 0.0013890106929466128
+AP Epoch [5/40], Test Accuracy: 89.32%
+AP_Epoch [6/40], AP Train Accuracy: 99.45%,  AP Old Loss: 0.01688008, AP New Loss: 0.03084233, AP Finetuning term: 0.001388464355841279
+AP Epoch [6/40], Test Accuracy: 89.43%
+AP_Epoch [7/40], AP Train Accuracy: 99.36%,  AP Old Loss: 0.01909985, AP New Loss: 0.03305808, AP Finetuning term: 0.001387762720696628
+AP Epoch [7/40], Test Accuracy: 89.19%
+AP_Epoch [8/40], AP Train Accuracy: 99.48%,  AP Old Loss: 0.01577860, AP New Loss: 0.02974498, AP Finetuning term: 0.0013894810108467937
+AP Epoch [8/40], Test Accuracy: 89.53%
+AP_Epoch [9/40], AP Train Accuracy: 99.41%,  AP Old Loss: 0.01754396, AP New Loss: 0.03150436, AP Finetuning term: 0.0013884392101317644
+AP Epoch [9/40], Test Accuracy: 89.48%
+AP_Epoch [10/40], AP Train Accuracy: 99.31%,  AP Old Loss: 0.01945015, AP New Loss: 0.03340296, AP Finetuning term: 0.0013874880969524384
+AP Epoch [10/40], Test Accuracy: 89.43%
+AP_Epoch [11/40], AP Train Accuracy: 99.34%,  AP Old Loss: 0.01912580, AP New Loss: 0.03307805, AP Finetuning term: 0.0013872685376554728
+AP Epoch [11/40], Test Accuracy: 89.77%
+AP_Epoch [12/40], AP Train Accuracy: 99.44%,  AP Old Loss: 0.01654592, AP New Loss: 0.03050463, AP Finetuning term: 0.001388674951158464
+AP Epoch [12/40], Test Accuracy: 89.44%
+AP_Epoch [13/40], AP Train Accuracy: 99.37%,  AP Old Loss: 0.01830669, AP New Loss: 0.03226211, AP Finetuning term: 0.0013874133583158255
+AP Epoch [13/40], Test Accuracy: 89.41%
+AP_Epoch [14/40], AP Train Accuracy: 99.50%,  AP Old Loss: 0.01565650, AP New Loss: 0.02962368, AP Finetuning term: 0.0013887814711779356
+AP Epoch [14/40], Test Accuracy: 89.43%
+AP_Epoch [15/40], AP Train Accuracy: 99.40%,  AP Old Loss: 0.01742281, AP New Loss: 0.03138269, AP Finetuning term: 0.0013888159301131964
+AP Epoch [15/40], Test Accuracy: 89.85%
+AP_Epoch [16/40], AP Train Accuracy: 99.39%,  AP Old Loss: 0.01878410, AP New Loss: 0.03274096, AP Finetuning term: 0.0013876886805519462
+AP Epoch [16/40], Test Accuracy: 89.60%
+AP_Epoch [17/40], AP Train Accuracy: 99.50%,  AP Old Loss: 0.01408782, AP New Loss: 0.02805826, AP Finetuning term: 0.0013895983574911952
+AP Epoch [17/40], Test Accuracy: 89.55%
+AP_Epoch [18/40], AP Train Accuracy: 99.39%,  AP Old Loss: 0.01801223, AP New Loss: 0.03197184, AP Finetuning term: 0.0013876170851290226
+AP Epoch [18/40], Test Accuracy: 89.51%
+AP_Epoch [19/40], AP Train Accuracy: 99.38%,  AP Old Loss: 0.01870040, AP New Loss: 0.03265882, AP Finetuning term: 0.0013874967116862535
+AP Epoch [19/40], Test Accuracy: 89.59%
+AP_Epoch [20/40], AP Train Accuracy: 99.51%,  AP Old Loss: 0.01627823, AP New Loss: 0.03024327, AP Finetuning term: 0.0013895479496568441
+AP Epoch [20/40], Test Accuracy: 89.57%
+AP_Epoch [21/40], AP Train Accuracy: 99.44%,  AP Old Loss: 0.01593351, AP New Loss: 0.02989717, AP Finetuning term: 0.0013881346676498652
+AP Epoch [21/40], Test Accuracy: 89.60%
+AP_Epoch [22/40], AP Train Accuracy: 99.44%,  AP Old Loss: 0.01626663, AP New Loss: 0.03023087, AP Finetuning term: 0.0013887728564441204
+AP Epoch [22/40], Test Accuracy: 89.74%
+AP_Epoch [23/40], AP Train Accuracy: 99.48%,  AP Old Loss: 0.01585146, AP New Loss: 0.02981714, AP Finetuning term: 0.0013890040572732687

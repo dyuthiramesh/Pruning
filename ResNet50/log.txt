@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/Pruning/ResNet50/ImageNet.py", line 106, in <module>
+    data = Data(gpu=gpu, data_dir=data_dir, batch_size=batch_size)
+  File "/workspace/Pruning/ResNet50/ImageNet.py", line 48, in __init__
+    train_ds = deeplake.load('hub://activeloop/imagenet-train', dest=train_path)
+  File "/usr/local/lib/python3.10/dist-packages/deeplake/util/spinner.py", line 151, in inner
+    return func(*args, **kwargs)
+TypeError: dataset.load() got an unexpected keyword argument 'dest'

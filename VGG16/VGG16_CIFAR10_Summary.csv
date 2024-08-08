@@ -1,0 +1,1 @@
+Iteration,Epoch,Loss with Regularization,CrossEntropy Loss,Regularization Term,Decorrelation Term,Accuracy,Conv 1,Conv 2,Conv 3,Conv 4,Conv 5,Conv 6,Conv 7,Conv 8,Conv 9,Conv 10,Conv 11,Conv 12,Conv 13,Trainable Parameters,Total Flops

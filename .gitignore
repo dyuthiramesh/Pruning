@@ -1,0 +1,8 @@
+# Ignore Jupyter Notebook checkpoints directories
+.ipynb_checkpoints/
+
+# Ignore Python path files
+*.pth
+
+# Ignore the data folder at the root level
+data/
